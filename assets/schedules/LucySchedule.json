@@ -1,6 +1,0 @@
-{
-  "spring": "700 LogCabinHotelLobby 11 10 2 \"Strings\\schedules\\Lunna:lucy.summer.001\"/2100 LogCabinHotel3rdFloor 1 12 0 lucy_sleep",
-  "summer": "700 LogCabinHotelLobby 11 10 2/2100 LogCabinHotel3rdFloor 1 12 0 lucy_sleep",
-  "fall": "700 LogCabinHotelLobby 11 10 2/2100 LogCabinHotel3rdFloor 1 12 0 lucy_sleep",
-  "winter": "700 LogCabinHotelLobby 11 10 2/2100 LogCabinHotel3rdFloor 1 12 0 lucy_sleep",
-}
