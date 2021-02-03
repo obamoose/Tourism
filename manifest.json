@@ -1,13 +1,42 @@
 {
-  "Name": "Ridgeside Tourism",
-  "Author": "Obamoose",
-  "Description": "Tourists in Ridgeside Village.",
-  "Version": "1.0.0",
-  "UniqueID": "Obamoose.RidgesideTourism",
-  "ContentPackFor": {
-    "UniqueID": "Pathoschild.ContentPatcher"
-  },
-  "UpdateKeys": [
-    "Nexus:???"
-  ]
+    "Name": "Tourism",
+    "Author": "Obamoose",
+    "Version": "1.0.0",
+    "Description": "Tourism in Stardew Valley.",
+    "UniqueID": "Obamoose.Tourism",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:????" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+    {
+    "UniqueID": "Esca.CustomNPCExclusions",
+    "IsRequired": true,
+    },
+    {
+    "UniqueID": "spacechase0.CustomNPCFixes",
+    "IsRequired": true,
+    },
+    {
+    "UniqueID": "SuperAardvark.AntiSocial",
+    "IsRequired": true,
+    },
+    {
+    "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+    "IsRequired": true,
+    },
+    {
+    "UniqueID": "Rafseazz.RSVCP",
+    "IsRequired": true,
+    },
+    {
+    "UniqueID": "LemurKat.EastScarpe.CP",
+    "IsRequired": true,
+    },
+    {
+    "UniqueID": "CPBoardingHouse",
+    "IsRequired": true,
+    },
+                    ]
 }

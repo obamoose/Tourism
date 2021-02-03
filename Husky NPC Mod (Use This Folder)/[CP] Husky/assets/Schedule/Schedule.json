@@ -1,0 +1,8 @@
+{
+	"spring": "610 SeedShop 21 30 2/700 Town 39 57 2/1030 Town 18 14 1/1430 Town 49 21 0/1750 Town 55 104 2/2100 Saloon 26 23 3/2350 SeedShop 22 30 2",
+	"summer": "610 SeedShop 22 30 2/800 SeedShop 26 37 3/1000 ArchaeologyHouse 10 5 0/1430 Saloon 14 20 0/1630 Saloon 39 19 2/1730 Saloon 26 23 3/1800 SeedShop 22 30 2",
+	"fall": "600 SeedShop 22 30 2/700 Town 37 89 2/1030 Beach 57 8 1/1430 Saloon 9 20 0/1750 Saloon 39 19 2/2100 Saloon 26 23 3/2400 SeedShop 22 30 2",
+	"winter": "600 SeedShop 22 30 2/800 ManorHouse 3 6 1/1200 Saloon 9 20 0/1300 Saloon 39 19 2/1400 Beach 26 23 3/1500 ArchaeologyHouse 15 9 0/2100 SeedShop 22 30 2",
+	"rain": "600 SeedShop 22 30 2/700 SeedShop 8 27 0/1000 SeedShop 23 18 0/1750 Saloon 39 19 2/2100 Saloon 26 23 3/2350 SeedShop 22 30 2",
+}
+

@@ -1,0 +1,12 @@
+{
+  "Name": "Astra [TMXL]",
+  "Author": "Dayashi",
+  "Version": "1.0.0",
+  "Description": "Adds Astra to festivals and her spouse room.",
+  "UniqueID": "Dayashi.AstraTMXL",
+  "UpdateKeys": ["Nexus:6289"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.13.0"
+  }
+}

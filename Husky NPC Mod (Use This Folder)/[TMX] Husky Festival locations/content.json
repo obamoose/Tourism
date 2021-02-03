@@ -1,0 +1,53 @@
+{
+"festivalSpots": 
+[ 
+{
+"name": "Husky",
+"map": "Town-EggFestival", 
+"position": [24, 78],
+"direction": 0
+},
+{
+"name": "Husky",
+"map": "Forest-FlowerFestival", 
+"position": [19, 35],
+"direction": 1
+},
+{
+"name": "Husky",
+"map": "Beach-Luau", 
+"position": [28, 36],
+"direction": 2
+},
+{
+"name": "Husky",
+"map": "Beach-Jellies", 
+"position": [29, 36],
+"direction": 2
+},
+{
+"name": "Husky",
+"map": "Town-Fair", 
+"position": [19, 35],
+"direction": 1
+},
+{
+"name": "Husky",
+"map": "Town-Halloween", 
+"position": [13, 16],
+"direction": 1
+},
+{
+"name": "Husky",
+"map": "Forest-IceFestival", 
+"position": [70, 49],
+"direction": 0
+},
+{
+"name": "Husky",
+"map": "Town-Christmas", 
+"position": [26, 65],
+"direction": 3
+}
+]
+}

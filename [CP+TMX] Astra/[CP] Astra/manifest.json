@@ -1,0 +1,12 @@
+{
+  "Name": "Astra [ContentPatcher]",
+  "Author": "Dayashi",
+  "Version": "1.0.0",
+  "Description": "Adds a new NPC: Astra.",
+  "UniqueID": "Dayashi.Astra",
+  "UpdateKeys": ["Nexus:6289"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.14.0"
+  }
+}

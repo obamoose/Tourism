@@ -1,0 +1,121 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Husky": "teen/polite/outgoing/positive/male/datable/null/Town/summer 1//SeedShop 21 33/Husky",
+
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Husky": "Wow I looove this!/1304 582 585 28 85 86 87 1301 1302 1303 8 584 580 583 579 581 31 388 119 223 224 220 287 286 288/I like this./60 62 64 66 68 70 517 591 595/No, just no./330/I hate this./2 205 404 420 422 664 20/That was very thoughtful of you./-4/ "
+      }
+    },
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {}
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Husky0": " SOOOOOOOOOOOOOOOOOOOOOOOOOOOO Excited :P  ",
+        "Husky1": "  Finaly, took ya long enougth "
+      }
+    },
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Husky",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+    },
+    {
+      "LogName": "Husky Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Husky",
+      "FromFile": "assets/Image/HuskyPort.png"
+    },
+    {
+      "LogName": "Husky Sprites",
+      "Action": "Load",
+      "Target": "Characters/Husky",
+      "FromFile": "assets/Image/HuskySrit.png"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Husky",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Husky",
+      "FromFile": "assets/Schedule/Schedule.json"
+    },
+      {
+      "Action": "Load",
+      "Target": "Maps/SeedShop",
+      "FromFile": "assets/maps/SeedShop.tbin"
+      },
+	{
+            "LogName": "Events for SeedShop",
+            "Action": "EditData",
+            "Target": "Data/Events/SeedShop",
+            "Entries": {
+                "170502/f Husky 500/t 900 1600/w Sunny": 
+				"desolate/-1000 1000/farmer 24 13 2 Husky 22 30 0/skippable/fade/viewport 23 28/pause 5000/emote Husky 12/pause 1000/speak Husky \"Ugh. I Can not beat this STUPID GAME!$2\"/pause 800/move farmer 0 17 2/move farmer -1 0 3/pause 800/emote Husky 17/pause 1000/speak Husky \"Oh, hey @!$0\"/pause 800/speak Husky \"I heard From Abigail Your Good at this game.$1\"/pause 400/speak Husky \"Could you have a quick go?\"/move Husky -1 0 3/move Husky 0 0 1/move farmer -1 0 3/move farmer 0 0 0/stopMusic/playMusic playful/globalFade/fade/message \"You Gamed and you gamed untill your head spun\"/message \"You even played two player with Husky a bit!\"/pause 500/speak Husky \"Well, thanks for the help.#$b#I'll get on started with this game. See you soon, and remember that you can play on it any time!\"/globalFade/viewport -1000 1000/end"
+            },
+    },
+    {
+		
+           "LogName": "Events for Saloon",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "170503/f Husky 1000/t 900 1600/w Sunny": 
+				"ragtime/-1000 1000/farmer 20 19 1 Husky 38 18 0/skippable/fade/viewport 38 18/pause 2000/emote Husky 9/pause 1000/speak Husky \"JojaMart = EvilMart$5\"/pause 800/move farmer 15 0 1/move farmer 0 -1 0/move farmer 1 0 1/pause 800/emote Husky 20/pause 1000/speak Husky \"Oh, hey @!$1\"/pause 800/speak Husky \"I hate Jojamart. There money sucking vampires!$5\"/pause 400/speak Husky \"Hey I appreciate all you've done for me and I wanted to give you this!$2\"/move Husky -1 0 3/speak Husky \"Here.[74]$4\"/speak Husky \"Hope You like it.#$b#See ya!$1\"/globalFade/viewport -1000 1000/end"
+            },
+    },
+			{
+		
+           "LogName": "Events for Beach",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "170504/f Husky 1500/t 500 1600/w Sunny": 
+				"AbigailFlute/-1000 1000/farmer 52 14 2 Husky 53 24 1 Abigail 54 23 2/skippable/fade/viewport 50 24/animate Abigail false true 612 16 17 18 19/pause 2000/emote Husky 17/speak Husky \"Ah the beach.$0\"/move farmer 0 10 2/pause 200/speak Husky \"Oh! Hi @!$1#$b#Abby is playing me music right now!$3#$b#But I'm Sure you can join in\"/emote farmer 15/speak Husky \"Oh right, I wanted to give you something.$2#$b#This is to show my apreciation, but I'm out of rare objects, so take this!$1#$b#3 Iridium Bars!!!$3[337][0337][00337]#$b#And now lets just enjoy the music!\"/pause 500/globalFade/viewport -1000 1000/end"
+            },
+    },
+	{
+		
+           "LogName": "Events for ArchaeologyHouse",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "170505/f Husky 2000/t 500 1600/w Sunny":  
+				"tribal/-1000 1000/Husky 10 11 1 farmer 8 12 1 Abigail 12 11 3/skippable/fade/viewport 8 14/pause 200/speak Husky \"So Abby, What is it$4\"/speak Abigail \"You know what.$2#$b#You're Not Payinag You're Rent to my dad!$5\"/speak Husky \"Why would I need to pay the Wizar...$7#$b#Oh, you mean Pierrie.$9\"/speak Abigail \"Yes of cause i mean Pierrie, who else would I mean$3\"/globalFade/fade/message \"Looks like Husky\'s in trouble!\"/move farmer 0 2 0/move farmer 2 0 1/move farmer 1 0 1/move farmer 0 -2 0/pause 500/speak Abigail \"Oh hi @!$7\"/speak Husky \"Yeah, hi @!$1\"/emote Husky 11/emote Abigail 11/speak Abigail \"Hey, this is a private talk @!$5\"/pause 200/speak Abigail \"You think you can help.$6#$b#You'll lend husky money$1\"/emote Husky 14/speak Husky \"really?$0#$b#Thnx Sooooooooooo much!$1#$b#Take this as a token of my apreciation![337][0337][00337]$3\"/pause 500/globalFade/viewport -1000 1000/end"
+            },
+    },
+	{
+		
+           "LogName": "Events for Town",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "170506/f Husky 2500/t 500 2400/w Sunny":  
+				"sadpiano/-1000 1000/Husky 18 14 3 farmer 17 14 1/skippable/fade/viewport 17 14/pause 1000/speak Husky \"Hey @!#$b#Remember the time we were playing that arcade game and I walked straight into an enemy and you complained for 2 minutes!#$b#And when we were at the saloon and you stuck gum in the Joja cola machine, to stop it working!#$b#Oh and when we were on the beach and Abby dropped the flute into the sea and it took us two hours to find it!$1#$b#Ah, those are my fondest memories, because you're in all of them!\"/pause 1000/speak Husky \"@, There is no way to describe how I feel about you#$b#I... I...\"/question null \"I can't express my feelings!!!#I love you.#I feel the same way.#Your Boring me now.\"/playMusic Upper_Ambient/pause 1000/showFrame Husky 29/showFrame 101/pause 2500/globalFade/viewport -1000 1000/end"
+            },
+    },
+  ]
+}  

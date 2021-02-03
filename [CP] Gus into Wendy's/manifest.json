@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] Gus into Wendy's",
+   "Author": "Lycasde",
+   "Version": "1.0.1",
+   "Description": "Turns Gus into Wendy's",
+   "UniqueID": "Lycasde.Gusintowendys",
+   "MinimumApiVersion": "2.5.5",
+   "UpdateKeys": ["Nexus:5545"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

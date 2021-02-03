@@ -1,132 +1,50 @@
 {
 "Changes": [
 	
-//-------------------------
-// D I S P O S I T I O N S 
-//-------------------------
-
+//Dispositions
 	{
 		"LogName": "NPC Dispositions",
 		"Action": "EditData",
 		"Target": "Data/NPCDispositions",
 		"Entries": {
 		
-			"Oswald": "adult/polite/shy/neutral/male/datable/null/Town/summer 15//LogCabinHotelLobby 13 16/Oswald",
-        	"Lucy": "adult/polite/shy/neutral/female/datable/null/Town/summer 16//LogCabinHotelLobby 14 16/Lucy",
+			"Astra": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//BusStop 12 9/Astra",
+			"Senna": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//BusStop 12 9/Senna",
 			
-		},
 	},
-
-//------------------------
-// P O R T R A I T S      
-//------------------------
-
+	},
+	
+//Portraits
 	{
 		"LogName": "Portraits",
 		"Action": "Load",
-		"Target": "Portraits/Aguar, Portraits/Alissa, Portraits/Bert, Portraits/Corine, Portraits/Ezekiel, Portraits/Flor, Portraits/Freddie, Portraits/Ian, Portraits/Jeric, Portraits/Jio, Portraits/Keahi, Portraits/Kenneth, Portraits/Kiwi, Portraits/Lenny, Portraits/Lola, Portraits/Maddie, Portraits/Olga, Portraits/Philip, Portraits/Pika, Portraits/Richard, Portraits/Shiro, Portraits/Trinnie, Portraits/Ysabelle, Portraits/Yuuma, Portraits/Undreya, Portraits/Helen",
-		"FromFile": "assets/Portraits/{{PTYPE}}/{{TargetWithoutPath}}.png"
+		"Target": "Portraits/Astra, Portraits/Senna",
+		"FromFile": "assets/Portraits/{{TargetWithoutPath}}.png"
 	},
-
-//------------------------
-// S P R I T E S          
-//------------------------
-
+		
+//Sprites
 	{
 		"LogName": "Sprites",
 		"Action": "Load",
-		"Target": "Characters/Aguar, Characters/Alissa, Characters/Bert, Characters/Corine, Characters/Ezekiel, Characters/Flor, Characters/Freddie, Characters/Ian, Characters/Jeric, Characters/Jio, Characters/Keahi, Characters/Kenneth, Characters/Kiwi, Characters/Lenny, Characters/Lola, Characters/Maddie, Characters/Olga, Characters/Philip, Characters/Pika, Characters/Richard, Characters/Shiro, Characters/Trinnie, Characters/Ysabelle, Characters/Yuuma, Characters/Undreya, Characters/Helen",
+		"Target": "Characters/Astra, Characters/Senna",
 		"FromFile": "assets/{{Target}}.png"
 	},
 	
-	{
-		"LogName": "Beach Sprites",
-		"Action": "Load",
-		"Target": "Characters/Aguar_Beach, Characters/Alissa_Beach, Characters/Bert_Beach, Characters/Corine_Beach, Characters/Ezekiel_Beach, Characters/Flor_Beach, Characters/Freddie_Beach, Characters/Ian_Beach, Characters/Jeric_Beach, Characters/Jio_Beach, Characters/Keahi_Beach, Characters/Kenneth_Beach, Characters/Kiwi_Beach, Characters/Lenny_Beach, Characters/Lola_Beach, Characters/Maddie_Beach, Characters/Olga_Beach, Characters/Philip_Beach, Characters/Pika_Beach, Characters/Richard_Beach, Characters/Shiro_Beach, Characters/Trinnie_Beach, Characters/Ysabelle_Beach, Characters/Yuuma_Beach, Characters/Undreya_Beach, Characters/Helen_Beach",
-		"FromFile": "assets/BeachCharacters/{{TargetWithoutPath}}.png"
-	},
-	
-
-//------------------------
-// M I S C                
-//------------------------
-	
-	{
-		"LogName": "Corine Ninja Outfit Portrait",
-		"Action": "EditImage",
-		"Target": "Portraits/Corine",
-		"FromFile": "assets/Portraits/{{PTYPE}}/{{TargetWithoutPath}}_Ninja.png",
-		"Update": "OnLocationChange",
-		"When": {
-			"HasSeenEvent: hostPlayer": 75160125,
-			"LocationName": "RidgesideVillage, Ridge, Farm, FarmHouse",
-			"DayOfWeek": "Thursday",
-		},
-	},
-	{
-		"LogName": "Corine Ninja Outfit Sprite",
-		"Action": "EditImage",
-		"Target": "Characters/Corine",
-		"FromFile": "assets/{{Target}}_Ninja.png",
-		"Update": "OnLocationChange",
-		"When": {
-			"HasSeenEvent: hostPlayer": 75160125,
-			"LocationName": "RidgesideVillage, Ridge, Farm, FarmHouse",
-			"DayOfWeek": "Thursday",
-		},
-	},
-		
-	
-//------------------------
-// D I A L O G U E S      
-//------------------------
-
+//Dialogue
 	{
 		"LogName": "Dialogue",
 		"Action": "Load",
-		"Target": "Characters/Dialogue/Aguar, Characters/Dialogue/Alissa, Characters/Dialogue/Bert, Characters/Dialogue/Corine, Characters/Dialogue/Ezekiel, Characters/Dialogue/Flor, Characters/Dialogue/Freddie, Characters/Dialogue/Ian, Characters/Dialogue/Jeric, Characters/Dialogue/Jio, Characters/Dialogue/Keahi, Characters/Dialogue/Kenneth, Characters/Dialogue/Kiwi, Characters/Dialogue/Lenny, Characters/Dialogue/Lola, Characters/Dialogue/Maddie, Characters/Dialogue/Olga, Characters/Dialogue/Philip, Characters/Dialogue/Pika, Characters/Dialogue/Richard, Characters/Dialogue/Shiro, Characters/Dialogue/Trinnie, Characters/Dialogue/Ysabelle, Characters/Dialogue/Yuuma, Characters/Dialogue/Undreya, Characters/Dialogue/Helen",
+		"Target": "Characters/Dialogue/Astra, Characters/Dialogue/Senna",
 		"FromFile": "assets/Dialogue/{{TargetWithoutPath}}.json"
 	},
-	
-//------------------------
-// S C H E D U L E S      
-//------------------------
 
+//Sschedules
 	{
 		"LogName": "Schedules",
 		"Action": "Load",
-		"Target": "Characters/schedules/Aguar, Characters/schedules/Alissa, Characters/schedules/Bert, Characters/schedules/Corine, Characters/schedules/Ezekiel, Characters/schedules/Flor, Characters/schedules/Freddie, Characters/schedules/Ian, Characters/schedules/Jeric, Characters/schedules/Jio, Characters/schedules/Keahi, Characters/schedules/Kenneth, Characters/schedules/Lenny, Characters/schedules/Lola, Characters/schedules/Maddie, Characters/schedules/Olga, Characters/schedules/Philip, Characters/schedules/Pika, Characters/schedules/Richard, Characters/schedules/Shiro, Characters/schedules/Trinnie, Characters/schedules/Ysabelle, Characters/schedules/Yuuma, Characters/schedules/Undreya, Characters/schedules/Helen",
+		"Target": "Characters/schedules/Astra, Characters/schedules/Senna",
 		"FromFile": "assets/Schedules/{{TargetWithoutPath}}.json"
 	},
-	
-	{
-		"LogName": "Karmylla's Map Patch - Flor",
-		"Action": "EditData",
-		"Target": "Characters/schedules/Flor",
-		"Entries": { "Tue": "610 Town 103 90 2/1100 ArchaeologyHouse 11 10 2 flor_read/1400 Town 89 100 3/1600 LogCabinHotel2ndFloor 2 9 1/2200 LogCabinHotel2ndFloor 3 5 0 flor_sleep", },
-		"When": { "HasMod: |contains=Karmylla.ImmersiveMaps": true, },
-	},
-	
-	{
-		"LogName": "Karmylla's Map Patch - Keahi",
-		"Action": "EditData",
-		"Target": "Characters/schedules/Keahi",
-		"Entries": { "Tue": "610 Town 103 92 2 square_2_2_2/1100 ArchaeologyHouse 15 11 1/1130 ArchaeologyHouse 14 11 3 keahi_read/1400 Town 86 98 2 square_2_2_2/1600 RidgesideVillage 76 60 2 square_1_2_2/1800 PikaHouse 7 10 3/2200 PikaHouse 26 5 0 keahi_sleep", },
-		"When": { "HasMod: |contains=Karmylla.ImmersiveMaps": true, },
-	},
-	
-	{
-		"LogName": "Kenneth SVE Schedule",
-		"Action": "EditData",
-		"Target": "Characters/schedules/Kenneth",
-		"Entries": {
-			"spring": "700 Town 24 54 0 kenneth_fixback/900 Town 25 61 3 kenneth_fixleft/930 Town 33 57 0 kenneth_fixback/1000 Town 37 67 1 kenneth_fixright/1030 Town 30 74 2 kenneth_fixfront/1100 Town 27 74 2 kenneth_fixfront/1130 Town 21 67 3 kenneth_fixleft/1200 RidgesideVillage 80 38 3/1400 RidgesideVillage 89 38 1/1800 KennethHouse 5 8 3/2200 KennethHouse 16 5 1 kenneth_sleep",
-			"summer": "700 Town 24 54 0 kenneth_fixback/900 Town 25 61 3 kenneth_fixleft/930 Town 33 57 0 kenneth_fixback/1000 Town 37 67 1 kenneth_fixright/1030 Town 30 74 2 kenneth_fixfront/1100 Town 27 74 2 kenneth_fixfront/1130 Town 21 67 3 kenneth_fixleft/1200 RidgesideVillage 84 61 2/1800 KennethHouse 5 8 3/2200 KennethHouse 16 5 1 kenneth_sleep",
-			"fall": "700 Town 24 54 0 kenneth_fixback/900 Town 25 61 3 kenneth_fixleft/930 Town 33 57 0 kenneth_fixback/1000 Town 37 67 1 kenneth_fixright/1030 Town 30 74 2 kenneth_fixfront/1100 Town 27 74 2 kenneth_fixfront/1130 Town 21 67 3 kenneth_fixleft/1200 ScienceHouse 2 22 1/1500 Mountain 20 26 2/1800 KennethHouse 5 8 3/2200 KennethHouse 16 5 1 kenneth_sleep",
-			"winter": "700 Town 24 54 0 kenneth_fixback/900 Town 25 61 3 kenneth_fixleft/930 Town 33 57 0 kenneth_fixback/1000 Town 37 67 1 kenneth_fixright/1030 Town 30 74 2 kenneth_fixfront/1100 Town 27 74 2 kenneth_fixfront/1130 Town 21 67 3 kenneth_fixleft/1200 Mountain 30 21 0/1800 KennethHouse 5 8 3/2200 KennethHouse 16 5 1 kenneth_sleep",
-			"marriage_Mon": "700 Town 24 54 0 kenneth_fixback/900 Town 25 61 3 kenneth_fixleft/930 Town 33 57 0 kenneth_fixback/1000 Town 37 67 1 kenneth_fixright/1030 Town 30 74 2 kenneth_fixfront/1100 Town 27 74 2 kenneth_fixfront/1130 Town 21 67 3 kenneth_fixleft/1200 RidgesideVillage 80 38 3/1400 RidgesideVillage 89 38 1/2200 BusStop -1 23 3",
-		},
-		"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, },
-	},
+
 ]
 }

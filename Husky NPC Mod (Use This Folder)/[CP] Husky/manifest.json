@@ -1,0 +1,13 @@
+{
+
+  "Name": "Husky NPC",
+   "Author": "HuskyLover269",
+   "Description": "Describe your Mod here",
+   "Version": "1.0.0",
+   "UniqueID": "HuskyLover269.HuskyNPC",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:3526" ], 
+   
+}

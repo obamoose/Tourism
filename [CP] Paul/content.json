@@ -1,0 +1,237 @@
+{
+  "Format": "1.5",
+  "Changes": [
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Paul",
+      "FromFile": "assets/PaulSprites.png",
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Paul",
+      "FromFile": "assets/portraits.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Paul",
+      "FromFile": "assets/PaulDialogue.json",
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialoguePaul",
+      "FromFile": "assets/marriageDialogue.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Paul",
+      "FromFile": "assets/PaulSchedule.json",
+    },
+    {
+      "LogName": "Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/Paul",
+      "FromFile": "assets/PaulStrings.json",
+    },
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Paul": "adult/neutral/outgoing/positive/male/datable//Town/fall 13//HarveyRoom 7 7 0/Paul"
+      },
+    },
+    {	
+		"LogName": "Animation Descriptions",
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"entries": 
+	{	
+		"paul_read": "17/18 18 18 18 18 18 18 18 18/19",
+		"paul_read2": "21/22 22 22 22 22 22 22 22/21",
+	},
+	},
+	{	
+		"LogName": "Mail",
+		"Action": "EditData",
+		"Target": "data/mail",
+		"Entries": {
+			"summer_5_1": "Hi, @!^I'm totally swamped with patients this week and I haven't had time to see Willy about a new fishing lure.^Could you bring me a 'Dressed Spinner?'^   -Paul %item quest 126 true %%",
+			"fall_10_1": "This is embarassing, but I just can't stop thinking about Gus' Pepper Poppers.^Will you bring me some?^ -Paul %item quest 127 %%",
+			"winter_5_1": "Hello, @!^Have you seen any Broken Glasses lying around?^I've been wanting to fix up a pair but I can't seem to find any.^If you find some, will you send them my way?^ -Paul %item quest 128 %%",
+			"spring 28_1": "@!^I'm in desperate need of some Wheat Flour for my sourdough loaf.^Could I borrow some?^ -Paul %item quest 129 %%",
+			},
+		},
+	{
+		"LogName": "Quests",
+		"Action": "EditData",
+		"Target": "data/quests",
+		"Entries": {
+			"126": "ItemDelivery/Gone Fishing/Paul needs a Dressed Spinner to go fishing after work./Bring Paul a Dressed Spinner./Paul 687/-1/1000/-1/true/You're the best, @! I can't wait to get out there and try it out!",
+			"127": "ItemDelivery/Something Spicy/Paul is craving something spicy./Bring Paul a some Pepper Poppers./Paul 215/-1/1000/-1/true/YES! Finally! Thanks so much, @!",
+			"128": "ItemDelivery/Broken Glasses/Bring Paul wants to fix up some frames./Bring Paul a pair of Broken Glasses./Paul 170/-1/1000/-1/true/These are perfect! Thanks so much, @!",
+			"129": "ItemDelivery/A Cup of Flour/Paul needs a cup of flour for his sourdough loaf./Bring Paul some Wheat Flour./Paul 246/-1/5000/-1/true/Now my sourdoigh will be perfect! Thanks, @!",
+				},
+			},
+	{	
+		"LogName": "Rainy Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/rainy",
+		"entries": 
+	{	
+		"Paul": "Did you know that fish still bite when it's raining?#$e#Maybe I can run out to the beach after my next patient.$2",
+	},
+},
+	{	
+		"LogName": "Egg Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"entries": 
+	{	
+		"Paul": "Did you see those bluejays flying overhead? I bet they're after these eggs...$2",
+		"Paul_spouse": "I know you'll win the egg hunt this year, sweetie!$1",
+	},
+},
+{	
+		"LogName": "Flower Dance",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"entries": 
+{	
+		"Paul": "Wow, now I know where all the birds hang out! It's such a shame they block off these woods during the year.$1",
+		"Paul_spouse": "I've been waiting to dance with you all year, sweetie!$1",
+},
+},
+{	
+		"LogName": "Luau",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"entries": 
+{	
+		"Paul": "Look how thick Pierre's glasses look from this angle. I wonder what his prescription is.",
+		"Paul_spouse": "Do you think anyone would notice if I ran back to the farm to get my fishing rod?$2",
+},
+},
+{	
+		"LogName": "Dance of the Moonlight Jellies",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"entries": 
+{	
+		"Paul": "Amazing. I read about these guys in my field journal last week... I wonder what they eat.",
+		"Paul_spouse": "Year after year, this phenomenon never fails to amaze me!$1",
+},
+},
+{	
+		"LogName": "Stardew Valley Fair",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"entries": 
+{	
+		"Paul": "I know I'm supposed to be enjoying the festival but I can't stop thinking about fishing the river over there.$2",
+		"Paul_spouse": "I can't wait to see your display! I'm so proud of you, my sweetie.$1",
+},
+},
+{	
+		"LogName": "Spirit's Eve",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"entries": 
+{	
+		"Paul": "Do you like candy corn? I can't stand it.$2",
+		"Paul_spouse": "Next year we should totally come dressed up as a foropter and an occluder.$1",
+},
+},
+{	
+		"LogName": "Festival of Ice",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"entries": 
+{	
+		"Paul": "I can't believe I forgot my fishing rod... of ALL days!$2",
+		"Paul_spouse": "You've got to win the ice fishing contest this year, sweetie! I made a bet with Willy.$2",
+},
+},
+{	
+		"LogName": "Feast of the Winter Star",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"entries": 
+{	
+		"Paul": "Merry Christmas! I hope your year was as good as mine was!",
+		"Paul_spouse": "Merry Chirstmas, my sweetie! Oh I love you so.$4",
+},
+},
+{	
+		"LogName": "Engagement Dialogue",
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"entries": 
+{	
+		"Paul0": "I can't believe it's actually happening! You're going to be my wife... how did I get so lucky?$4",
+		"Paul1": "How would you feel about me hanging a few birdfeeders on the farm?$1",
+},
+},
+	{
+		"LogName": "PaulEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Hospital",
+		"Entries": {
+			"100112/f Paul 500": "sweet/-100 -100/farmer -10000 -10000 0 Pierre 20 11 2 Paul 22 11 3/skippable/viewport 20 12 true/pause 1500/speak Pierre \"I don't know how it happened... I can't find my glasses anywhere.$s\"/pause 300/speak Paul \"It happens to the best of us! You said you're wearing an old backup pair now. What's the vision like?$1\"/pause 300/speak Pierre \"Blurry. I could barely see my catalogues this morning.$s\"/pause 300/speak Paul \"Let's go ahead and do a refraction to make sure your prescription is up to date, okay?\"/pause 300/move Paul -1 0 3 false/speak Paul \"First things first, let's run the autorefractor on you.\"/pause 600/move Paul 0 1 0 false/move Paul -1 0 0 false/pause 1000/speak Paul \"Looking good. Now I'm going to cover your left eye. Read the smallest line of text for me, please.\"/pause 600/emote Pierre 40/pause 600/speak Paul \"Well your prescription has definitely changed. No wonder your backup glasses aren't working for you.\"/pause 600/playSound doorClose/warp farmer 9 7 1/move farmer 6 0 0 false/move farmer 0 1 0 false/move farmer 7 0 0 false/move farmer 0 2 2 false/jump Pierre/speak Pierre \"@! You found my glasses!$1\"/pause 1250/speak Paul \"Well they're definitely broken.$s\"/pause 300/speak Paul \"You have two options, Pierre. Either we can fix the broken frames or you could try a brand new pair.\"/pause 800/speak Pierre \"What do you think, @?\"/pause 600/emote farmer 40/emote farmer 16/pause 300/emote Pierre 32/speak Pierre \"You're right. It's time for a change! I can't wait to see what Caroline thinks of my new look.$1\"/pause 300/speak Paul \"Well, then! You're all set, Pierre!#$1#Just come on back if your vision seems to change at all and we'll make sure you have an updated prescription.\"/emote Pierre 32/pause 800/speak Paul \"Thanks for coming in, @! You were a big help today.$h\"/emote farmer 32/pause 600/end",
+		},
+	},
+	{
+		"LogName": "PaulEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Mountain",
+		"Entries": {
+			"100113/f Paul 1000/w sunny/t 630 1900": "spring_day_ambient/-100 -100/farmer 34 32 1 Paul 46 31 2/skippable/viewport 46 31 true/pause 1500/move farmer 12 0 0/speak Paul \"@! You're just in time.$1\"/pause 300/speak Paul \"I'm waiting for the rose-hooded parrots. They always fly over the mountain this time of day.$1\"/emote farmer 8/pause 600/faceDirection Paul 1/emote Paul 16/speak Paul \"Look, here they come!$1\"/move farmer -1 0 0 false/move farmer 0 -1 1/playMusic playful/specificTemporarySprite parrots1/pause 800/faceDirection Paul 2/faceDirection farmer 2/pause 600/playSound parrot/pause 600/playSound parrot/pause 300/faceDirection Paul 3/faceDirection farmer 3/pause 3500/emote farmer 32/pause 300/textAboveHead Paul \"Beautiful.\"/pause 600/faceDirection farmer 1/speak Paul \"I've loved birds for as long as I can remember.$4\"pause 300/speak Paul \"I used to stand in the backyard for hours holding birdseed.$1\"/pause 300/speak Paul \"They'd actually land on me, you know. Mom said I had a way with them. I don't know.$2\"/pause 300/emote farmer 32/pause 300/speak Paul \"You should come out here more often, @!$1\"/pause 300/speak Paul \"You would love birdwatching. It definitely takes your mind off of work and the pressures of life.$2\"/pause 300/speak Paul \"Oh not that your life is stressful. I mean, I'd love to live on a farm.$1\"/pause 300/emote Paul 40/pause 300/speak Paul \"Maybe I'll come by some time. I'll bring a bird feeder.$1\"/pause 300/emote farmer 32/pause 600/end",
+		},
+	},
+	{
+		"LogName": "PaulEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/JoshHouse",
+		"Entries": {
+			"100114/f Paul 1500": "playful/-100 -100/farmer 10 19 3 Paul 3 17 0 Evelyn 6 18 3 Harvey -10000 -10000 0 George -10000 -10000 0 Willy -10000 -10000 0/skippable/viewport 3 19 true/pause 1500/move farmer -6 0 3 false/move farmer 0 -2 3/faceDirection Paul 1/speak Paul \"Hi, @! Glad you could come by.$1\"/pause 300/speak Paul \"Evelyn's been letting me use her kitchen for the past few weeks. Harvey's is a little small.$2\"/pause 300/speak Evelyn \"Oh I wouldn't have it any other way!\"/pause 300/emote Paul 32/move Evelyn 0 2 2 false/move Evelyn -1 0 3 false/move Evelyn 0 1 3 false/speak Paul \"Anyway, I'm making some focaccia today! Want to help me out?$1\"/pause 300/emote farmer 16/speak Paul \"Awesome! Come measure out three cups of water, will you?$1\"/pause 300/faceDirection farmer 0/faceDirection Paul 0/pause 300/playSound clank/pause 100/playSound clank/pause 600/pause 300/playSound clank/pause 300/playSound clank/textAboveHead Paul \"Please pass the flour.\"/pause 800/playSound clank/pause 300/playSound clank/pause 300/playSound clank/pause 1000/emote Paul 20/pause 600/speak Paul \"It's perfect!$1\"/pause 300/speak Paul \"We make a good team, @.$4\"/pause 300/emote farmer 32/pause 600/playSound doorClose/warp Harvey 9 24 3/warp George 9 24 3/warp Willy 9 24 3/pause 300/speak Harvey \"It smells wonderful in here.$1\"/pause 300/speak Paul \"I thought I'd invite some friends over help to us eat it.$1\"/pause 300/move Harvey 0 -5 3 false/move Harvey -8 0 0 false/move Harvey 0 1 1 false/move George 0 -5 3 false/move George -4 0 3 false/move George 0 1 3 false/move Willy 0 -5 3 false/move Willy -3 0 3 false/move Willy 0 -1 2 false/faceDirection Paul 1/faceDirection farmer 3/pause 300/speak Paul \"Ready to taste it?$1\"/pause 300/move Paul 0 2 2 false/move farmer 0 2 2 false/pause 300/emote Paul 32/emote farmer 32/pause 600/end",
+		},
+	},
+	{
+		"LogName": "PaulEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Beach",
+		"Entries": {
+			"100115/f Paul 2000/t 2000 2300": "ocean/-100 -100/farmer 12 29 2 Paul 12 39 2 Willy 11 39 2/skippable/viewport 12 39 true/pause 1500/speak Paul \"I'm telling you, Willy, the dressed spinner is the way to go this time of year.\"/pause 600/move farmer 0 7 2/faceDirection Paul 0/faceDirection Willy 0/pause 800/emote Willy 8/speak Willy \"This be the boy you told me about, eh?$u^This be the girl you told me about, eh?$u\"/pause 300/textAboveHead Paul \"Willy...\"/pause 300/emote farmer 8/pause 600/move Willy 0 -1 1 false/speak Willy \"Goodnight, you two.$1\"/pause 300/move Willy 0 -8 0 false/move farmer 1 0 2 false/move farmer 0 3 2/faceDirection Paul 2/playMusic echos/pause 1000/speak Paul \"It's really good to see you, @.$4\"/emote Paul 32/pause 600/speak Paul \"I always feel at peace here. There's something about the rhythm of the waves and the smell of the air.\"/pause 300/speak Paul \"Sometimes I come out here when I can't sleep.$2\"/pause 300/emote farmer 8/pause 300/speak Paul \"I don't know... sometimes I have a lot on my mind.$2\"/pause 300/emote Paul 60/pause 600/speak Paul \"You and the ocean have a similar affect on me.$4\"/pause 600/faceDirection Paul 1/speak Paul \"There's something about you, @. I'm so glad I met you.$4\"/pause 300/emote farmer 32/pause 300/faceDirection Paul 2/speak Paul \"What's your family like, @?\"/pause 300/emote Paul 40/pause 600/speak Paul \"I'm the oldest of eight kids. Sometimes it's hard not to take all of their problems onto myself.$2\"/pause 300/speak Paul \"I wouldn't trade it for the world, though. I love each of them so much.\"/pause 300/speak Paul \"Sometimes I just need someone to talk to. Thanks for being that someone, @.$2\"/pause 300/emote Paul 60/pause 300/emote farmer 20/pause 600/end",
+		},
+	},
+	{
+		"LogName": "PaulEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Woods",
+		"Entries": {
+			"100116/f Paul 2500/w sunny/t 630 1900": "spring_day_ambient/-100 -100/farmer 20 12 1 Paul 9 12 1/skippable/viewport 9 12 true/pause 1500/move farmer -10 0 3 false/faceDirection Paul 1/speak Paul \"@! I'm so glad you made it.$1\"/pause 300/emote farmer 32/speak Paul \"The rose-hooded parrots have been migrating over pelican town for hundreds of years!$1\"/pause 300/faceDirection Paul 2/speak Paul \"It says here that...\"/faceDirection farmer 2/jump farmer 8/playMusic spaceMusic/emote Paul 16/specificTemporarySprite parrots1/pause 1600/textAboveHead Paul \"This is amazing!\"/pause 1600/faceDirection Paul 1/faceDirection farmer 3/speak Paul \"Hey, @?$4\"/pause 1600/specificTemporarySprite parrots1/pause 1600/speak Paul \"I love you, @.$4\"/pause 2000/specificTemporarySprite parrots1/pause 1600/speak Paul \"I should have told you such a long time ago. I love you to the ends of the earth and back.$4\"/pause 1600/specificTemporarySprite parrots1/pause 1600/speak Paul \"I don't know if you feel the same way, but I just had to tell you.$2\"/pause 300/emote farmer 20/pause 300/emote Paul 20/pause 300/specificTemporarySprite parrots1/pause 1600/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/positionOffset Paul 1 0/pause 30/pause 5000/globalFade/viewport -1000 -1000/pause 600/end",
+		},
+	},
+	{
+		"LogName": "PaulEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {
+			"100117/f Paul 2500/w sunny/t 600 800": "continue/64 15/farmer 64 16 2 Paul 64 18 0/pause 600/speak Paul \"Morning, @!$1\"/pause 300/emote farmer 32/speak Paul \"The rose-hooded parrots are migrating over the valley today. It's really amazing and I'd love for you to come!$1\"/pause 300/speak Paul \"Meet me in the Secret Woods if you're interested. Hope to see you there!$1\"/pause 600/end",
+			"100118/f Paul 1500/t 600 800": "continue/64 15/farmer 64 16 2 Paul 64 18 0/pause 600/speak Paul \"Hi, @!$1\"/pause 300/speak Paul \"I'm just here to invite you to meet me at Evelyn's house sometime! It'd be fun to see more of you.$4\"/pause 300/speak Paul \"She and George have been letting me bake over there and I thought you might like to join.$1\"/pause 300/speak Paul \"Come on over if you're interested!\"/pause 300/emote farmer 32/pause 600/end",
+		},
+	},
+	{
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Paul": "@! How did you know I absolutely love this!/303 136 137 139 210 212 215 224 395 216 713 720 730 348/Wow, what a find! I can't wait to fix these up!/170/Did you mean to give this to me?/225 226/... /168 171/Okay, thanks!//",
+	  	}
+    }
+  ]
+}
