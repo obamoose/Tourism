@@ -1,0 +1,6 @@
+{
+  "spring": "700 LogCabinHotelLobby 12 10 2/710 LogCabinHotelLobby 12 11 2/730 LogCabinHotelLobby 14 8 2\"Strings\\schedules\\Oswald:summer_Mon\"/2100 LogCabinHotel3rdFloor 3 12 0 oswald_sleep",
+  "summer": "700 LogCabinHotelLobby 12 10 2/2100 LogCabinHotel3rdFloor 1 12 0 oswald_sleep",
+  "fall": "700 LogCabinHotelLobby 12 10 2/2100 LogCabinHotel3rdFloor 1 12 0 oswald_sleep",
+  "winter": "700 LogCabinHotelLobby 12 10 2/2100 LogCabinHotel3rdFloor 1 12 0 oswald_sleep",
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Ridgeside Tourism",
+  "Author": "Obamoose",
+  "Description": "Tourists in Ridgeside Village.",
+  "Version": "1.0.0",
+  "UniqueID": "Obamoose.RidgesideTourism",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus:???"
+  ]
+}

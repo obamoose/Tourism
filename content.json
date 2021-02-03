@@ -1,0 +1,109 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+  
+  //NPC Data
+  {
+   "Action": "Include",
+   "FromFile": "Data/NPCData.json",
+  },
+ 
+    {
+      "LogName": "Oswald Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Oswald",
+      "FromFile": "assets/img/oswald_portrait.png",
+      "Entries": null
+    },
+
+  
+  {
+    "LogName": "Antisocials",
+    "Action": "EditData",
+    "Target": "Data/AntiSocialNPCs",
+    "Entries": {
+      "Oswald": true,
+      "Lucy": true
+    }
+  },
+    {
+      "LogName": "Oswald Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "oswald_sleep": "51/51/51",
+      }
+    },
+    {
+      "LogName": "Oswald Sprite",
+      "Action": "Load",
+      "Target": "Characters/Oswald",
+      "FromFile": "assets/img/oswald_spritesheet.png",
+      "Entries": null
+    },
+
+    {
+      "LogName": "Oswald Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Oswald",
+      "FromFile": "assets/schedules/OswaldSchedule.json",
+      "Entries": null
+    },
+    {
+      "LogName": "ScheduleDialogue Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/Oswald",
+      "FromFile": "assets/schedules/Strings.json",
+    },
+    {
+      "LogName": "Oswald Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Oswald",
+      "FromFile": "assets/dialogue/OswaldDialogue.json",
+      "Entries": null
+    },
+    {
+      "LogName": "Lucy Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "lucy_sleep": "51/51/51",
+      }
+    },
+    {
+      "LogName": "Lucy Sprite",
+      "Action": "Load",
+      "Target": "Characters/Lucy",
+      "FromFile": "assets/img/lucy_spritesheet.png",
+      "Entries": null
+    },
+    {
+      "LogName": "Lucy Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Lucy",
+      "FromFile": "assets/img/lucy_portrait.png",
+      "Entries": null
+    },
+    {
+      "LogName": "Lucy Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Lucy",
+      "FromFile": "assets/schedules/LucySchedule.json",
+      "Entries": null
+    },
+    {
+      "LogName": "Lucy Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lucy",
+      "FromFile": "assets/dialogue/LucyDialogue.json",
+      "Entries": null
+    },
+	
+	{
+            "LogName": "ScheduleDialogue Strings",
+            "Action": "Load",
+            "Target": "Strings/schedules/Lucy",
+            "FromFile": "assets/strings/LucyStrings.json",
+        },
+  ]
+}

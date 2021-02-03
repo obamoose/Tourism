@@ -1,0 +1,171 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Wednesday": "adult/neutral/outgoing/neutral/female/not-datable/null/Other/winter 8//BusStop 2 8/Wednesday"
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Wednesday": "Thank you @ Its perfect!/119 575 308 746 769 795/Thanks. This is cool./680 799 798 767 305 420 422 682 156/This is disgusting./18 22 402 418 421 595 597/Do you want me to stab you to death with a butter knife?/221 524/Hey thanks for the gift./424 426 306 307 308 428 446 78 725 726 768 769 -4 142 721 681 688 689 690 -74 309 310 311/"
+		
+      }
+    },
+
+    {
+
+      "LogName": "Wednesday Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Wednesday",
+      "FromFile": "assets/Image/Wednesday.png"
+
+    },
+
+    {
+
+      "LogName": "Wednesday Sprites",
+      "Action": "Load",
+      "Target": "Characters/Wednesday",
+      "FromFile": "assets/Image/Sprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Wednesday",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Wednesday",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    { //festivals
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Wednesday": "I'd rather stay away from the festivities.#$e#All those pastels make me want to rip my eyes out.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Wednesday": "Hello Darling.#$e#Did anyone choke on an egg yet?$1",
+      },
+      "When": {
+        "Spouse:Wednesday": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Wednesday": "I think this jello thing is alive$1.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Wednesday": "We should have stayed home.",
+      },
+      "When": {
+        "Spouse:Wednesday": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Wednesday": "You know pig meat is the really similar to human meat?",
+        "Wednesday_spouse": "I hope you put something funny in the soup this year darling.#$e#I want to see the governor barf.$1",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Wednesday": "You know if you eat a moonlight jellyfish it makes your head expand like a balloon.$1",
+        "Wednesday_spouse": "Hello darling. What a lovely way to say goodbye to the summer.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Wednesday": "The fortune teller told me that there was no death in my near future.#$b#Thats disappointing.",
+        "Wednesday_spouse": "Are you going to have your fortune told darling?$1",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Wednesday": "This pumpkin is an old friend of mine.",
+        "Wednesday_spouse": "Will you grow me a pumpkin like this one day darling?",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Wednesday": "Death comes for us all.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Wednesday": "Isnt this romantic darling?",
+      },
+      "When": {
+        "Spouse:Wednesday": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Wednesday": "I am hanging out with these lovely snow people.#$b#I prefer them over real people.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Wednesday": "We should set up the torture chamber tonight darling.#$b#Im feeling romantic.$2",
+      },
+      "When": {
+        "Spouse:Wednesday": "True"
+      }
+    },
+
+   
+
+
+  ]
+}
+		
+		
