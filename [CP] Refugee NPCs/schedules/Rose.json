@@ -1,6 +1,0 @@
-{
-        "spring_1": "610 Mountain 12 5 2/620 Town 25 66 2/900 Town 41 57 0/1030 SeedShop 2 23 3/1200 FishShop 8 5 3/1710 Town 40 59 0/1900 Mountain 12 5 2/2140 NorthWoods 29 13 0/2300 SmokeyFallsJunction 38 13 2/100 TownEast 9 12 2",
-        "rain": "GOTO spring",
-        "spring": "610 Mountain 12 5 2/620 Town 25 66 2/900 Town 41 57 0/1030 SeedShop 2 23 3/1200 FishShop 8 5 3/1710 Town 40 59 0/1900 Mountain 12 5 2/2140 NorthWoods 29 13 0/2300 SmokeyFallsJunction 38 13 2/100 TownEast 9 12 2",
-        "default": "610 Mountain 12 5 2/620 Town 25 66 2/900 Town 41 57 0/1030 SeedShop 2 23 3/1200 FishShop 8 5 3/1710 Town 40 59 0/1900 Mountain 12 5 2/2140 NorthWoods 29 13 0/2300 SmokeyFallsJunction 38 13 2/100 TownEast 9 12 2"
-    }

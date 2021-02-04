@@ -1,6 +1,0 @@
-{
-        "spring_1": "610 NorthWoods 29 11 2/700 SmokeyFallsJunction 38 13 2/1000 NorthWoods 29 11 2/1200 Mountain 6 8 2/1350 Town 39 57 2/1610 Seedshop 37 20 2/1800 Town 39 57 2/1900 Mountain 6 8 2/2130 NorthWoods 29 11 2",
-        "rain": "GOTO spring",
-        "spring": "610 NorthWoods 29 11 2/700 SmokeyFallsJunction 38 13 2/1000 NorthWoods 29 11 2/1200 Mountain 6 8 2/1350 Town 39 57 2/1610 Seedshop 37 20 2/1800 Town 39 57 2/1900 Mountain 6 8 2/2130 NorthWoods 29 11 2",
-        "default": "610 NorthWoods 29 11 2/700 SmokeyFallsJunction 38 13 2/1000 NorthWoods 29 11 2/1200 Mountain 6 8 2/1350 Town 39 57 2/1610 Seedshop 37 20 2/1800 Town 39 57 2/1900 Mountain 6 8 2/2130 NorthWoods 29 11 2"
-    }
