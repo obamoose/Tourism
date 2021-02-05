@@ -9,6 +9,7 @@
     "Target": "Data/CustomNPCExclusions",
     "Entries": {
       "Astra": "ALL",
+      "Bolin": "ALL",
       "Senna": "ALL",
   }
   },
@@ -20,6 +21,7 @@
     "Target": "Data/AntiSocialNPCs",
     "Entries": {
       "Astra": true,
+      "Bolin": true,
       "Senna": true,
   }
   },

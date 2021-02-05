@@ -9,7 +9,7 @@
 	"spring_23": "I hear there's a dance festival tomorrow. How very exciting.#$e#I've always had a fondness for such traditions.$h#$e#$q 993/994 dance_followup#Will I see you there?#$r 993 10 dance_yes#Yes, I'll be there.#$r 994 0 dance_maybe#Maybe, I haven't decided yet.#$r 994 -10 dance_no#No.",
 		"dance_yes": "Great! I look forward to seeing you dance.$h",
 		"dance_maybe": "I understand your hesitation. I'm sure it'll be a good time though.",
-		"dance_no": "That's a shame.$s",
+		"dance_no": "Elliott smells. He's a Smelliott",
 		"dance_followup": "$p 993#I wonder if anyone will ask me to participate. I better practice the steps.$4|I do hope you'll reconsider, if only to watch.",
 	"summer_10": "I hear there's a potluck tomorrow. A luau, I believe they called it?#$e#Proving the town's worth over the quality of the soup. What a strange tradition.",
 	"summer_28": "I hear the 'Moonlight Jellies' are due to appear tonight.#$e#I can't wait to see them.$h",
