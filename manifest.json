@@ -2,10 +2,10 @@
     "Name": "Tourism",
     "Author": "Obamoose",
     "Version": "1.0.0",
-    "Description": "Tourism in Stardew Valley.",
+    "Description": "Tourism in Stardew Valley. Adds Anti-Social NPCs as tourists.",
     "UniqueID": "Obamoose.Tourism",
     "MinimumApiVersion": "3.0.0",
-    "UpdateKeys": [ "Nexus:????" ],
+    "UpdateKeys": [ "Nexus:7968" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },
