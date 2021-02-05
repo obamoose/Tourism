@@ -10,7 +10,6 @@
     "Entries": {
       "Astra": "ALL",
       "Bolin": "ALL",
-      "Senna": "ALL",
   }
   },
 
@@ -22,7 +21,6 @@
     "Entries": {
       "Astra": true,
       "Bolin": true,
-      "Senna": true,
   }
   },
 
@@ -35,16 +33,16 @@
   },
   
   //Event Data
-  {
-   "Action": "Include",
-   "FromFile": "Data/EventData.json",
-  },
+//{
+// "Action": "Include",
+// "FromFile": "Data/EventData.json",
+//},
   
   //Event Dialogues
-  {
-   "Action": "Include",
-   "FromFile": "Data/EventDialogues.json",
-  },
+//{
+// "Action": "Include",
+// "FromFile": "Data/EventDialogues.json",
+//},
  
   //NPC Data
   {

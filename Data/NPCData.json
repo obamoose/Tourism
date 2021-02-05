@@ -10,8 +10,6 @@
 		
 			"Astra": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//BusStop 12 9/Astra",
 			"Bolin": "adult/neutral/neutral/neutral/male/not-datable/null/Town/null//BusStop 12 9/Bolin",
-			"Senna": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//BusStop 12 9/Senna",
-			
 	},
 	},
 	
@@ -19,7 +17,7 @@
 	{
 		"LogName": "Portraits",
 		"Action": "Load",
-		"Target": "Portraits/Astra, Portraits/Bolin, Portraits/Senna",
+		"Target": "Portraits/Astra, Portraits/Bolin",
 		"FromFile": "assets/Portraits/{{TargetWithoutPath}}.png"
 	},
 		
@@ -27,7 +25,7 @@
 	{
 		"LogName": "Sprites",
 		"Action": "Load",
-		"Target": "Characters/Astra, Characters/Bolin, Characters/Senna",
+		"Target": "Characters/Astra, Characters/Bolin",
 		"FromFile": "assets/{{Target}}.png"
 	},
 	
@@ -35,7 +33,7 @@
 	{
 		"LogName": "Dialogue",
 		"Action": "Load",
-		"Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin, Characters/Dialogue/Senna",
+		"Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin",
 		"FromFile": "assets/Dialogue/{{TargetWithoutPath}}.json"
 	},
 
@@ -43,7 +41,7 @@
 	{
 		"LogName": "Schedules",
 		"Action": "Load",
-		"Target": "Characters/schedules/Astra, Characters/schedules/Bolin, Characters/schedules/Senna",
+		"Target": "Characters/schedules/Astra, Characters/schedules/Bolin",
 		"FromFile": "assets/Schedules/{{TargetWithoutPath}}.json"
 	},
 
