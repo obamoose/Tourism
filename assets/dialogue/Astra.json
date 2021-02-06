@@ -1,6 +1,8 @@
 {
 "Changes": [
+	
 	{
+   
    "Action": "EditData",
    "Target": "Characters/Dialogue/Astra",
    "Entries": {
