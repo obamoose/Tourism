@@ -28,16 +28,14 @@
 		"Target": "Characters/Astra, Characters/Bolin",
 		"FromFile": "assets/{{Target}}.png"
 	},
-	
-//Dialogue
-	{
-		"LogName": "Dialogue",
-		"Action": "Load",
-		"Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin",
-		"FromFile": "assets/Dialogue/{{TargetWithoutPath}}.json"
-	},
 
-//Sschedules
+//Dialogue Include
+  {
+   "Action": "Include",
+   "FromFile": "assets/Dialogue/Astra.json, assets/Dialogue/Bolin.json",
+  },
+
+//Schedules
 	{
 		"LogName": "Schedules",
 		"Action": "Load",
