@@ -57,5 +57,14 @@
    "FromFile": "Data/NPCData.json",
   },
 
+//Hotel Patch
+  {
+    "Action": "EditMap",
+    "Target": "Maps/Forest",
+    "FromFile": "assets/Hotel.tbin",
+    "FromArea": { "X": 22, "Y": 61, "Width": 16, "Height": 13 },
+    "ToArea": { "X": 22, "Y": 61, "Width": 16, "Height": 13 }
+  },
+
  ]
 }

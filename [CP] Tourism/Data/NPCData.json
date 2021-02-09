@@ -8,8 +8,8 @@
 		"Target": "Data/NPCDispositions",
 		"Entries": {
 		
-			"Astra": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//Beach 12 39/Astra",
-			"Bolin": "adult/neutral/neutral/neutral/male/not-datable/null/Town/null//Beach 12 39/Bolin",
+			"Astra": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//BusStop 12 9/Astra",
+			"Bolin": "adult/neutral/neutral/neutral/male/not-datable/null/Town/null//BusStop 12 9/Bolin",
 	},
 	},
 	
