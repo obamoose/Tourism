@@ -1,5 +1,5 @@
 {
-  "Format": "1.19.0",
+  "Format": "1.22.0",
   "Changes": [
   
 
@@ -10,6 +10,9 @@
     "Entries": {
       "Astra": "ALL",
       "Bolin": "ALL",
+      "Caleb": "ALL",
+      "Mr Hoshi": "ALL",
+      "Rose": "ALL",      
   }
   },
 
@@ -21,16 +24,15 @@
     "Entries": {
       "Astra": true,
       "Bolin": true,
+      "Caleb": true,
+      "Mr Hoshi": true,
+      "Rose": true,      
   }
   },
 
 //Load Files
 
-  //Animations
-  {
-   "Action": "Include",
-   "FromFile": "Data/Animations.json",
-  },
+
   
   //Event Data
 //{
@@ -45,26 +47,79 @@
 //},
   
   //Dialogue loading
-   {
+  {
    "Action": "Load",
-   "Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin",
+   "Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin, Characters/Dialogue/Caleb, Characters/Dialogue/Hoshi, Characters/Dialogue/Rose",
    "FromFile": "Data/DialogueJson.json"
   },
 
   //NPCData Loading
   {
    "Action": "Include",
-   "FromFile": "Data/NPCData.json",
+   "FromFile": "Data/NPCData.json, Data/MapStrings.json",
   },
 
 //Hotel Patch
-  {
-    "Action": "EditMap",
-    "Target": "Maps/Forest",
-    "FromFile": "assets/Hotel.tbin",
-    "FromArea": { "X": 22, "Y": 61, "Width": 16, "Height": 13 },
-    "ToArea": { "X": 22, "Y": 61, "Width": 16, "Height": 13 }
-  },
+ // {
+ //   "Action": "EditMap",
+ //   "Target": "Maps/Forest",
+ //   "FromFile": "assets/Hotel.tbin",
+ //   "FromArea": { "X": 22, "Y": 61, "Width": 16, "Height": 13 },
+ //   "ToArea": { "X": 22, "Y": 61, "Width": 16, "Height": 13 }
+ // },
 
+//Tourism Dock/Center/Merge
+  //{
+  //"Action": "EditMap",
+  //"Target": "Maps/EastScarpe",
+  //"FromFile": "assets/Maps/EastScarpeDockMerge.tmx",
+  //"FromArea": { "X": 0, "Y": 0, "Width": 4, "Height": 3 },
+  //"ToArea": { "X": 0, "Y": 133, "Width": 4, "Height": 3 },
+  //"PatchMode": "Replace"
+  //},
+
+//East Scarpe Inn Rose
+      { 
+  "LogName": "Add warp to ES Inn for Rose",
+  "Action": "EditMap",
+  "Target": "Maps/EastScarpeInn",
+  "MapTiles": [
+      {
+          "Position": {
+              "X":25,
+              "Y":4, 
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+              "Action": "LockedDoorWarp 3 9 InnRoomRose 800 2000"
+          }
+      }
+    ],
+    "When": {
+    "HasMod": "LemurKat.EastScarpe.CP"
+      }
+},
+
+//East Scarpe Inn Guests
+      { 
+  "LogName": "Add warp to ES Inn for guests",        
+  "Action": "EditMap",
+  "Target": "Maps/EastScarpeInn",
+  "MapTiles": [
+      {
+          "Position": {
+              "X":29,
+              "Y":4,
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+              "Action": "LockedDoorWarp 3 9 InnRoomGuests 800 2000"
+          }
+      }
+    ],
+    "When": {
+    "HasMod": "LemurKat.EastScarpe.CP"
+      }
+},
  ]
 }

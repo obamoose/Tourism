@@ -1,0 +1,16 @@
+{
+"Changes": [
+	
+	//MAP Strings
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+				"tourism.secret": "It's some kind of totem. I wonder what's behind it.",
+				"tourism.sign": "< Stardrop Tourism Company.",
+				},
+	},
+
+	
+]
+}

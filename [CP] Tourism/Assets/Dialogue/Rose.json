@@ -2,7 +2,7 @@
 "Changes": [
 	{
    "Action": "EditData",
-   "Target": "Characters/Dialogue/Bolin",
+   "Target": "Characters/Dialogue/Rose",
    "Entries": {
 
    	//Spring
@@ -124,7 +124,7 @@
 	"winter_26": "Hi there, stranger.$h#$b#I'm thinking of buying a {{Random:Ridgeside Shaketini, Autumn Dew Drop Juice, Cherry Berry Shakey, Snowball Slurpee, Omelet, Arugula Roll, Fried Fish a la Ridge, Fried Mountain Greens, Highland Ice Cream, Honey Glazed Salad, Ridge Fruity Plate, Snow Bowl Surprise, Zesty Tuna, Spaghetti, Lucky Lunch, Pumpkin Soup, Blackberry Cobbler, Salad, Pepper Poppers, Bean Hotpot, Tom Kha Soup, Stir Fry, Coleslaw, Fish Taco, Farmer's Lunch}} from Pika's.#$b#Oh, I'm thinking of visiting {{Random:Blue Moon Vineyard, Buffalo Ranch, East Scarpe, Ridgeside Village}}, as well.#$b#Hmm, {{Random:Bolin, Ayeisha, Limey}} might be there.#$b#The time? It's %time!$h.",
 	"winter_27": "Hi there, stranger.$h#$b#I'm thinking of buying a {{Random:Ridgeside Shaketini, Autumn Dew Drop Juice, Cherry Berry Shakey, Snowball Slurpee, Omelet, Arugula Roll, Fried Fish a la Ridge, Fried Mountain Greens, Highland Ice Cream, Honey Glazed Salad, Ridge Fruity Plate, Snow Bowl Surprise, Zesty Tuna, Spaghetti, Lucky Lunch, Pumpkin Soup, Blackberry Cobbler, Salad, Pepper Poppers, Bean Hotpot, Tom Kha Soup, Stir Fry, Coleslaw, Fish Taco, Farmer's Lunch}} from Pika's.#$b#Oh, I'm thinking of visiting {{Random:Blue Moon Vineyard, Buffalo Ranch, East Scarpe, Ridgeside Village}}, as well.#$b#Hmm, {{Random:Bolin, Ayeisha, Limey}} might be there.#$b#The time? It's %time!$h.",
 	"winter_28": "Hi there, stranger.$h#$b#I'm thinking of buying a {{Random:Ridgeside Shaketini, Autumn Dew Drop Juice, Cherry Berry Shakey, Snowball Slurpee, Omelet, Arugula Roll, Fried Fish a la Ridge, Fried Mountain Greens, Highland Ice Cream, Honey Glazed Salad, Ridge Fruity Plate, Snow Bowl Surprise, Zesty Tuna, Spaghetti, Lucky Lunch, Pumpkin Soup, Blackberry Cobbler, Salad, Pepper Poppers, Bean Hotpot, Tom Kha Soup, Stir Fry, Coleslaw, Fish Taco, Farmer's Lunch}} from Pika's.#$b#Oh, I'm thinking of visiting {{Random:Blue Moon Vineyard, Buffalo Ranch, East Scarpe, Ridgeside Village}}, as well.#$b#Hmm, {{Random:Bolin, Ayeisha, Limey}} might be there.#$b#The time? It's %time!$h.",	
-	
+
    }
 }
 ]

@@ -1,0 +1,52 @@
+{
+  "loadLate": true,
+  "addMaps": [
+    {
+		"name": "TourismDock",
+		"file": "assets/TourismDock.tmx",
+  			"addWarps": [
+				"32 10 EastScarpe 1 132",
+				"32 11 EastScarpe 1 133",
+				"32 12 EastScarpe 1 134",
+				"32 13 EastScarpe 1 135",
+			]
+	    },
+    {
+		"name": "TourismCenter",
+		"file": "assets/TourismCenter.tmx",
+  			"addWarps": [
+				"21 28 TourismDock 11 13",
+				"22 28 TourismDock 12 13",
+
+			]
+	    },	    
+		{
+		"name": "InnRoomGuests",
+		"file": "assets/InnRoomGuests.tmx",
+	    },
+
+		{
+		"name": "InnRoomRose",
+		"file": "assets/InnRoomRose.tmx",
+	    },	    	    
+	],
+  "onlyWarps": [
+    {
+	  	"name": "EastScarpe",
+	    	"addWarps": [
+				"-1 132 TourismDock 31 10",
+				"-1 133 TourismDock 31 11",
+				"-1 134 TourismDock 31 12",
+				"-1 135 TourismDock 31 13",
+	  		]
+		},
+  ],
+  "mergeMaps": [
+    {
+      "name": "EastScarpe",
+      "file": "assets/EastScarpeDockMerge.tmx",
+	  "sourceArea": [0,0,4,7],
+	  "position": [0,130],
+	    },
+	]
+}

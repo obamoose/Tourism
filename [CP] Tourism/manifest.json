@@ -5,38 +5,38 @@
     "Description": "Tourism in Stardew Valley. Adds Anti-Social NPCs as tourists.",
     "UniqueID": "Obamoose.Tourism",
     "MinimumApiVersion": "3.0.0",
-    "UpdateKeys": [ "Nexus:7968" ],
+    "UpdateKeys": [ "Nexus:8000" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },
     "Dependencies": [
     {
     "UniqueID": "Esca.CustomNPCExclusions",
-    "IsRequired": true,
+    "IsRequired": false,
     },
     {
     "UniqueID": "spacechase0.CustomNPCFixes",
-    "IsRequired": true,
+    "IsRequired": false,
     },
     {
     "UniqueID": "SuperAardvark.AntiSocial",
-    "IsRequired": true,
+    "IsRequired": false,
     },
     {
     "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-    "IsRequired": true,
+    "IsRequired": false,
     },
     {
     "UniqueID": "Rafseazz.RSVCP",
-    "IsRequired": true,
+    "IsRequired": false,
     },
     {
     "UniqueID": "LemurKat.EastScarpe.CP",
-    "IsRequired": true,
+    "IsRequired": false,
     },
     {
     "UniqueID": "CPBoardingHouse",
-    "IsRequired": true,
+    "IsRequired": false,
     },
-                    ]
+]
 }
