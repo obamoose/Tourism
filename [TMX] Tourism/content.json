@@ -45,8 +45,8 @@
     {
       "name": "EastScarpe",
       "file": "assets/EastScarpeDockMerge.tmx",
-	  "sourceArea": [0,0,4,7],
-	  "position": [0,130],
+	  "sourceArea": [0,0,4,10],
+	  "position": [0,127],
 	    },
 	]
 }
