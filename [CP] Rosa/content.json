@@ -19,7 +19,7 @@
 *********/ 
 
   {
-  "LogName": "Load Empty Ridgeside Dialogue File",
+  "LogName": "Load Empty Rosa Dialogue File",
     "Action": "Load",
     "Target": "Characters/Dialogue/Rosa",
     "FromFile": "Data/LoadDialogue.json"
@@ -37,13 +37,13 @@
 *********/  
 
   {
-  "LogName": "Include Ridgeside Schedule File",
+  "LogName": "Include Rosa Schedule File",
     "Action": "Include",
     "FromFile": "Assets/Schedules/Rosa.json",
   },
 
   {
-  "LogName": "Include Ridgeside Dialogue Files",
+  "LogName": "Include Rosa Dialogue Files",
     "Action": "Include",
     "FromFile": "Assets/Dialogue/Rosa.json",
   }, 

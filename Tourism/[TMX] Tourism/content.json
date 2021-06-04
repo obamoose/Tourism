@@ -3,7 +3,7 @@
   "addMaps": [
     {
 		"name": "TourismDock",
-		"file": "assets/TourismDock.tmx",
+		"file": "Assets/TourismDock.tmx",
   			"addWarps": [
 				"32 10 EastScarpe 1 132",
 				"32 11 EastScarpe 1 133",
@@ -13,7 +13,7 @@
 	    },
     {
 		"name": "TourismCenter",
-		"file": "assets/TourismCenter.tmx",
+		"file": "Assets/TourismCenter.tmx",
   			"addWarps": [
 				"21 28 TourismDock 11 13",
 				"22 28 TourismDock 12 13",
@@ -22,13 +22,9 @@
 	    },	    
 		{
 		"name": "InnRoomGuests",
-		"file": "assets/InnRoomGuests.tmx",
+		"file": "Assets/InnRoomGuests.tmx",
 	    },
-
-		{
-		"name": "InnRoomRose",
-		"file": "assets/InnRoomRose.tmx",
-	    },	    	    
+ 	    
 	],
   "onlyWarps": [
     {
@@ -44,7 +40,7 @@
   "mergeMaps": [
     {
       "name": "EastScarpe",
-      "file": "assets/EastScarpeDockMerge.tmx",
+      "file": "Assets/EastScarpeDockMerge.tmx",
 	  "sourceArea": [0,0,4,10],
 	  "position": [0,127],
 	    },

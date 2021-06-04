@@ -1,50 +1,117 @@
 {
-"Changes": [
-	
-//Dispositions
+	"Changes": [
+
+/*********
+** Load Files
+*********/ 
+
+{
+	"LogName": "Load Empty Tourism Dialogue Files",
+	"Action": "Load",
+	"Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin, Characters/Dialogue/Caleb, Characters/Dialogue/Hoshi, Characters/Dialogue/Giovanni",
+	"FromFile": "Data/LoadData/LoadDialogue.json"
+},
+
+{
+	"LogName": "Load Empty Tourism Schedule Files",
+	"Action": "Load",
+	"Target": "Characters/Schedules/Astra, Characters/Schedules/Bolin, Characters/Schedules/Caleb, Characters/Schedules/Hoshi, Characters/Schedules/Giovanni",
+	"FromFile": "Data/LoadData/LoadSchedules.json"
+},
+
+/*********
+** Include Files
+*********/  
+
+{
+	"LogName": "Include Tourism Schedule Files",
+	"Action": "Include",
+	"FromFile": "Assets/Schedules/Astra.json, Assets/Schedules/Bolin.json, Assets/Schedules/Caleb.json, Assets/Schedules/Hoshi.json, Assets/Schedules/Giovanni.json",
+},
+
+{
+	"LogName": "Include Tourism Dialogue Files",
+	"Action": "Include",
+	"FromFile": "Assets/Dialogue/Astra.json, Assets/Dialogue/Bolin.json, Assets/Dialogue/Caleb.json, Assets/Dialogue/Hoshi.json, Assets/Dialogue/Giovanni.json",
+}, 
+
+
+/*********
+** NPC Data
+*********/ 
+
+	/*********
+	** Dispositions
+	*********/ 
+
 	{
 		"LogName": "NPC Dispositions",
 		"Action": "EditData",
 		"Target": "Data/NPCDispositions",
 		"Entries": {
-		
+
 			"Astra": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//TourismCenter 16 23/Astra",
 			"Bolin": "adult/neutral/neutral/neutral/male/not-datable/null/Town/null//TourismCenter 4 23/Bolin",
 			"Caleb": "adult/neutral/neutral/neutral/male/not-datable/null/Town/null//TourismCenter 21 21/Caleb",
 			"Hoshi": "adult/neutral/neutral/neutral/male/not-datable/null/Town/null//TourismCenter 16 21/Mr Hoshi",
-			"Rose": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//InnRoomRose 5 5/Rose",
+			"Giovanni": "adult/neutral/neutral/neutral/male/not-datable/null/Town/null//TourismCenter 11 20/Giovanni",
+
+		},
 	},
-	},
-	
-//Portraits
+
+	/*********
+	** Portraits
+	*********/ 	
+
 	{
 		"LogName": "Portraits",
 		"Action": "Load",
-		"Target": "Portraits/Astra, Portraits/Bolin, Portraits/Caleb, Portraits/Hoshi, Portraits/Rose",
+		"Target": "Portraits/Astra, Portraits/Bolin, Portraits/Caleb, Portraits/Hoshi, Portraits/Giovanni",
 		"FromFile": "Assets/{{Target}}.png"
 	},
-		
-//Sprites
+
+	/*********
+	** Sprites
+	*********/ 
+
 	{
 		"LogName": "Sprites",
 		"Action": "Load",
-		"Target": "Characters/Astra, Characters/Bolin, Characters/Caleb, Characters/Hoshi, Characters/Rose",
+		"Target": "Characters/Astra, Characters/Bolin, Characters/Caleb, Characters/Hoshi, Characters/Giovanni",
 		"FromFile": "Assets/{{Target}}.png"
 	},
 
-//Dialogue Include
-  {
-   "Action": "Include",
-   "FromFile": "Assets/Dialogue/Astra.json, Assets/Dialogue/Bolin.json, Assets/Dialogue/Caleb.json, Assets/Dialogue/Hoshi.json, Assets/Dialogue/Rose.json",
-  },
+	/*********
+	** Custom NPC Exclusions
+	*********/ 
 
-//Schedules
 	{
-		"LogName": "Schedules",
-		"Action": "Load",
-		"Target": "Characters/schedules/Astra, Characters/schedules/Bolin, Characters/schedules/Caleb, Characters/schedules/Hoshi, Characters/schedules/Rose",
-		"FromFile": "Assets/Schedules/{{TargetWithoutPath}}.json"
+		"Action": "EditData",
+		"Target": "Data/CustomNPCExclusions",
+		"Entries": {
+			"Astra": "ALL",
+			"Bolin": "ALL",
+			"Caleb": "ALL",
+			"Mr Hoshi": "ALL",
+			"Giovanni": "ALL",      
+		}
 	},
 
+	/*********
+	** Anti-Social NPCs
+	*********/ 	
+
+	{
+		"LogName": "Antisocial NPCs",
+		"Action": "EditData",
+		"Target": "Data/AntiSocialNPCs",
+		"Entries": {
+			"Astra": true,
+			"Bolin": true,
+			"Caleb": true,
+			"Mr Hoshi": true,
+			"Giovanni": true,      
+		}
+	},
 ]
 }

@@ -1,62 +1,14 @@
 {
-  "Format": "1.22.0",
+  "Format": "1.23.0",
   "Changes": [
-  
 
-  //Custom NPC Exclusions        
+/*********
+** Include Files
+*********/ 
+
   {
-    "Action": "EditData",
-    "Target": "Data/CustomNPCExclusions",
-    "Entries": {
-      "Astra": "ALL",
-      "Bolin": "ALL",
-      "Caleb": "ALL",
-      "Mr Hoshi": "ALL",
-      "Giovanni": "ALL",      
-  }
-  },
-
-  //Anti-Social NPCs
-  {
-    "LogName": "Antisocial NPCs",
-    "Action": "EditData",
-    "Target": "Data/AntiSocialNPCs",
-    "Entries": {
-      "Astra": true,
-      "Bolin": true,
-      "Caleb": true,
-      "Mr Hoshi": true,
-      "Giovanni": true,      
-  }
-  },
-
-//Load Files
-
-
-  
-  //Event Data
-//{
-// "Action": "Include",
-// "FromFile": "Data/EventData.json",
-//},
-  
-  //Event Dialogues
-//{
-// "Action": "Include",
-// "FromFile": "Data/EventDialogues.json",
-//},
-  
-  //Dialogue loading
-  {
-   "Action": "Load",
-   "Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin, Characters/Dialogue/Caleb, Characters/Dialogue/Hoshi, Characters/Dialogue/Giovanni",
-   "FromFile": "Data/DialogueJson.json"
-  },
-
-  //NPCData Loading
-  {
-   "Action": "Include",
-   "FromFile": "Data/NPCData.json, Data/MapStrings.json",
+    "Action": "Include",
+    "FromFile": "Data/NPCData.json, Data/MapStrings.json",
   },
 
 //Hotel Patch
@@ -78,48 +30,28 @@
   //"PatchMode": "Replace"
   //},
 
-//East Scarpe Inn Rose
-      { 
-  "LogName": "Add warp to ES Inn for Rose",
-  "Action": "EditMap",
-  "Target": "Maps/EastScarpeInn",
-  "MapTiles": [
-      {
-          "Position": {
-              "X":25,
-              "Y":4, 
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-              "Action": "LockedDoorWarp 3 9 InnRoomRose 800 2000"
-          }
-      }
-    ],
-    "When": {
-    "HasMod": "LemurKat.EastScarpe.CP"
-      }
-},
 
 //East Scarpe Inn Guests
-      { 
+{ 
   "LogName": "Add warp to ES Inn for guests",        
   "Action": "EditMap",
   "Target": "Maps/EastScarpeInn",
   "MapTiles": [
-      {
-          "Position": {
-              "X":29,
-              "Y":4,
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-              "Action": "LockedDoorWarp 3 9 InnRoomGuests 800 2000"
-          }
+    {
+      "Position": {
+        "X":29,
+        "Y":4,
+      },
+      "Layer": "Buildings",
+      "SetProperties": {
+        "Action": "LockedDoorWarp 3 9 InnRoomGuests 800 2000"
       }
-    ],
-    "When": {
+    }
+  ],
+  "When": {
     "HasMod": "LemurKat.EastScarpe.CP"
-      }
+  }
 },
- ]
+
+]
 }
