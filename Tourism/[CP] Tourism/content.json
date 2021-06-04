@@ -12,7 +12,7 @@
       "Bolin": "ALL",
       "Caleb": "ALL",
       "Mr Hoshi": "ALL",
-      "Rose": "ALL",      
+      "Giovanni": "ALL",      
   }
   },
 
@@ -26,7 +26,7 @@
       "Bolin": true,
       "Caleb": true,
       "Mr Hoshi": true,
-      "Rose": true,      
+      "Giovanni": true,      
   }
   },
 
@@ -49,7 +49,7 @@
   //Dialogue loading
   {
    "Action": "Load",
-   "Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin, Characters/Dialogue/Caleb, Characters/Dialogue/Hoshi, Characters/Dialogue/Rose",
+   "Target": "Characters/Dialogue/Astra, Characters/Dialogue/Bolin, Characters/Dialogue/Caleb, Characters/Dialogue/Hoshi, Characters/Dialogue/Giovanni",
    "FromFile": "Data/DialogueJson.json"
   },
 

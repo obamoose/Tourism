@@ -1,0 +1,20 @@
+{
+"Changes": [
+
+	{
+		"LogName": "Giovanni Base Schedule",
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Giovanni",
+		"Entries": {
+
+			"spring": "610 TourismCenter 12 19 2/2400 TourismCenter 12 19 2",
+			"summer": "610 TourismCenter 12 19 2/2400 TourismCenter 12 19 2",
+			"fall": "610 TourismCenter 12 19 2/2400 TourismCenter 12 19 2",
+			"winter": "610 TourismCenter 12 19 2/2400 TourismCenter 12 19 2",
+			"rain": "610 TourismCenter 12 19 2/2400 TourismCenter 12 19 2",
+			
+					},
+	},
+
+]
+}

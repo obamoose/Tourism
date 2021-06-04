@@ -1,0 +1,20 @@
+{
+"Changes": [
+
+	{
+		"LogName": "Astra Base Schedule",
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Astra",
+		"Entries": {
+
+			"spring": "610 TourismCenter 16 23 2/2400 TourismCenter 16 23 2",
+			"summer": "610 TourismCenter 16 23 2/2400 TourismCenter 16 23 2",
+			"fall": "610 TourismCenter 16 23 2/2400 TourismCenter 16 23 2",
+			"winter": "610 TourismCenter 16 23 2/2400 TourismCenter 16 23 2",
+			"rain": "610 TourismCenter 16 23 2/2400 TourismCenter 16 23 2",
+			
+					},
+	},
+
+]
+}

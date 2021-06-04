@@ -1,0 +1,118 @@
+{
+  "Format": "1.23.0",
+
+  "CustomLocations": [
+
+/*********
+** Load InnRoomRosa
+*********/
+  {
+    "Name": "Custom_ES_InnRoomRosa",
+    "FromMapFile": "Assets/Maps/InnRoomRosa.tmx",
+  }, 
+],
+
+  "Changes": [
+
+/*********
+ ** Load Files
+*********/ 
+
+  {
+  "LogName": "Load Empty Ridgeside Dialogue File",
+    "Action": "Load",
+    "Target": "Characters/Dialogue/Rosa",
+    "FromFile": "Data/LoadDialogue.json"
+  },
+
+  {
+  "LogName": "Load Empty Rosa Schedule File",
+    "Action": "Load",
+    "Target": "Characters/Schedules/Rosa",
+    "FromFile": "Data/LoadSchedules.json"
+  },
+
+/*********
+** Include Files
+*********/  
+
+  {
+  "LogName": "Include Ridgeside Schedule File",
+    "Action": "Include",
+    "FromFile": "Assets/Schedules/Rosa.json",
+  },
+
+  {
+  "LogName": "Include Ridgeside Dialogue Files",
+    "Action": "Include",
+    "FromFile": "Assets/Dialogue/Rosa.json",
+  }, 
+
+/*********
+** NPC Data
+*********/ 
+
+  /*********
+  ** Dispositions
+  *********/
+
+  {
+    "LogName": "NPC Dispositions",
+    "Action": "EditData",
+    "Target": "Data/NPCDispositions",
+    "Entries": {
+    
+      "Rosa": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//InnRoomRosa 5 5/Rosa",
+  },
+  },
+  
+  /*********
+  ** Portraits
+  *********/
+
+  {
+    "LogName": "Portraits",
+    "Action": "Load",
+    "Target": "Portraits/Rosa",
+    "FromFile": "Assets/{{Target}}.png"
+  },
+    
+  /*********
+  ** Sprites
+  *********/
+
+  {
+    "LogName": "Sprites",
+    "Action": "Load",
+    "Target": "Characters/Rosa",
+    "FromFile": "Assets/{{Target}}.png"
+  },
+
+/*********
+** East Scarpe Inn Rose
+*********/
+
+  /*********
+  ** East Scarpe Inn Rose
+  *********/
+
+  { 
+    "LogName": "Add warp to ES Inn for Rose",
+    "Action": "EditMap",
+    "Target": "Maps/EastScarpeInn",
+    "MapTiles": [
+      {
+          "Position": {
+              "X":25,
+              "Y":4, 
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+              "Action": "LockedDoorWarp 3 9 Custom_ES_InnRoomRosa 800 2000"
+          }
+      }
+    ],
+      "When": { "HasMod": "LemurKat.EastScarpe.CP" }
+  },
+]
+}

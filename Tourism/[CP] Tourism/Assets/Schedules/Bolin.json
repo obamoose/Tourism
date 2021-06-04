@@ -1,0 +1,20 @@
+{
+"Changes": [
+
+	{
+		"LogName": "Bolin Base Schedule",
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Bolin",
+		"Entries": {
+
+			"spring": "610 TourismCenter 4 23 2/2400 TourismCenter 4 23 2",
+			"summer": "610 TourismCenter 4 23 2/2400 TourismCenter 4 23 2",
+			"fall": "610 TourismCenter 4 23 2/2400 TourismCenter 4 23 2",
+			"winter": "610 TourismCenter 4 23 2/2400 TourismCenter 4 23 2",
+			"rain": "610 TourismCenter 4 23 2/2400 TourismCenter 4 23 2",
+			
+					},
+	},
+
+]
+}

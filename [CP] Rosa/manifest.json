@@ -1,0 +1,42 @@
+{
+    "Name": "[CP] Rosa",
+    "Author": "Obamoose",
+    "Version": "1.0.0",
+    "Description": "Adds Rosa to East Scarpe",
+    "UniqueID": "Obamoose.RosaCP",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:????" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+    {
+    "UniqueID": "Esca.CustomNPCExclusions",
+    "IsRequired": false,
+    },
+    {
+    "UniqueID": "spacechase0.CustomNPCFixes",
+    "IsRequired": false,
+    },
+    {
+    "UniqueID": "SuperAardvark.AntiSocial",
+    "IsRequired": false,
+    },
+    {
+    "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+    "IsRequired": false,
+    },
+    {
+    "UniqueID": "Rafseazz.RSVCP",
+    "IsRequired": false,
+    },
+    {
+    "UniqueID": "LemurKat.EastScarpe.CP",
+    "IsRequired": true,
+    },
+    {
+    "UniqueID": "CPBoardingHouse",
+    "IsRequired": false,
+    },
+]
+}
