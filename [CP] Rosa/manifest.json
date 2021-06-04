@@ -3,7 +3,7 @@
     "Author": "Obamoose",
     "Version": "1.0.0",
     "Description": "Adds Rosa to East Scarpe",
-    "UniqueID": "Obamoose.RosaCP",
+    "UniqueID": "Obamoose.Rosa",
     "MinimumApiVersion": "3.0.0",
     "UpdateKeys": [ "Nexus:????" ],
     "ContentPackFor": {

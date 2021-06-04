@@ -62,7 +62,7 @@
     "Target": "Data/NPCDispositions",
     "Entries": {
     
-      "Rosa": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//InnRoomRosa 5 5/Rosa",
+      "Rosa": "adult/neutral/neutral/neutral/female/not-datable/null/Town/null//Custom_ES_InnRoomRosa 5 5/Rosa",
   },
   },
   
