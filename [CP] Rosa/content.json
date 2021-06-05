@@ -19,14 +19,14 @@
 *********/ 
 
   {
-  "LogName": "Load Empty Rosa Dialogue File",
+    "LogName": "Load Empty Rosa Dialogue File",
     "Action": "Load",
     "Target": "Characters/Dialogue/Rosa",
     "FromFile": "Data/LoadDialogue.json"
   },
 
   {
-  "LogName": "Load Empty Rosa Schedule File",
+    "LogName": "Load Empty Rosa Schedule File",
     "Action": "Load",
     "Target": "Characters/Schedules/Rosa",
     "FromFile": "Data/LoadSchedules.json"
