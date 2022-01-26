@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] KelHouse",
+   "Author": "ChaseXavier",
+   "Version": "1.1.0",
+   "Description": "Takes you Kel the stalker NPC's house",
+   "UniqueID": "ChaseXavier.BLKelHouse",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": "",
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", // the ID of required mod
+   }
+}

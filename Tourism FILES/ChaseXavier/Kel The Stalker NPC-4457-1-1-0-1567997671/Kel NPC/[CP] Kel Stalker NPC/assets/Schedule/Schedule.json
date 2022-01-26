@@ -1,0 +1,13 @@
+{
+ //spring
+  "Mon": "610 Town 53 76 2/700 Saloon 22 19 3/930 BusStop 7 8 2 Kel_SniffMail \"/1430 Town 20 51 Kel_foottap \"/1750 Town 26 10 2 Kel_Snapped \"/2100 Town 26 10 2 Kel_Snapped /2350 Town 26 10 2 Kel_Snapped\"",
+  "Tue": "610 Town 53 76 2/700 Saloon 22 19 3/930 BusStop 7 8 2 Kel_SniffMail \"/1430 Town 20 51 Kel_foottap \"/1750 Town 26 10 2 Kel_Snapped \"/2100 Town 26 10 2 Kel_Snapped /2350 Town 26 10 2 Kel_Snapped\"",
+  "Wed": "610 Town 53 76 2/700 Saloon 22 19 3/930 BusStop 7 8 2 Kel_SniffMail \"/1430 Town 20 51 Kel_foottap \"/1750 Town 26 10 2 Kel_Snapped \"/2100 Town 26 10 2 Kel_Snapped /2350 Town 26 10 2 Kel_Snapped\"",
+  "Thu": "610 Town 53 76 2/700 Saloon 22 19 3/930 BusStop 7 8 2 Kel_SniffMail \"/1430 Town 20 51 Kel_foottap \"/1750 Town 26 10 2 Kel_Snapped \"/2100 Town 26 10 2 Kel_Snapped /2350 Town 26 10 2 Kel_Snapped\"",
+  "Fri": "610 Town 53 76 2/700 Saloon 22 19 3/930 BusStop 7 8 2 Kel_SniffMail \"/1430 Town 20 51 Kel_foottap \"/1750 Town 26 10 2 Kel_Snapped \"/2100 Town 26 10 2 Kel_Snapped /2350 Town 26 10 2 Kel_Snapped\"",
+  "Sat": "610 Town 53 76 2/700 Saloon 22 19 3/930 BusStop 7 8 2 Kel_SniffMail \"/1430 Town 20 51 Kel_foottap \"/1750 Town 26 10 2 Kel_Snapped \"/2100 Town 26 10 2 Kel_Snapped /2350 Town 26 10 2 Kel_Snapped\"",
+  "Sun": "610 Town 53 76 2/700 Forest 67 9 2 Kel_SniffMail /840 Town 7 89 2/900 Town 51 99 2/1000 Town 69 101 2/1500 Town 17 16 2 Kel_Snapped /1700 Town 23 25 1/1900 BusStop 25 6 2 Kel_foottap /2000 BusStop 25 6 2 Kel_Snapped /2100 BusStop 25 6 2 Kel_knife /2200 BusStop 2 22 2 Kel_Snapped \"/2350 BusStop 2 22 2 Kel_Snapped\"",
+}
+
+// First number is time (610 = 6:10) Name of map (BusStop = Bus Stop) and finally position X Y F where x is the X tile Coordinate, Y is the y coordinate and F is facing (0 = up, 1 = right, 2 = down, 3 = left)
+//after position will be animations covered in AnimationDescriptions. (sunbathe) followed by the schedule Dialogues.  Note it's format.  If you have any questions please talk to me on Discord.

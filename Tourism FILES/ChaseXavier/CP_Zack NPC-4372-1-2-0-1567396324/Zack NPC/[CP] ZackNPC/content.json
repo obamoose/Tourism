@@ -1,0 +1,256 @@
+
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Zack": "adult/neutral/outgoing/neutral/male/datable/null/Other/fall 22//Saloon 39 22/Zack",
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Zack": "Woah, thanks for the gift cutie./305 606 575 558 523 400/*He gives you a kiss on the cheek*/88 90 109/..@...what the hell is this?/16 18 197 236/...I should slap you./760 789/I love this,thanks @./773 223/",
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Zack_text": "16/16 17 17 18 18 19 19/19",
+        "Zack_sweeping": "36/36 37 37 38/38",
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Zack",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json",
+
+    },
+
+    {
+
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Zack0": "Well this is will be a wild adventure.",
+        "Zack1": "This is fantastic babe.",
+      }
+    },
+
+    { //wedding vows fix
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Zack... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Zack... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Zack in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Zack in the bonds of marriage.",
+      },
+      "When": {
+        "Relationship:Zack": "Engaged, Married"
+      }
+    },
+
+
+    {
+
+      "LogName": "Zack Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Zack",
+      "FromFile": "assets/Image/ZackPortraits.png",
+
+    },
+
+    {
+
+      "LogName": "Zack Sprites",
+      "Action": "Load",
+      "Target": "Characters/Zack",
+      "FromFile": "assets/Image/ZackSprite.png",
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Zack",
+      "FromFile": "assets/Dialogue/ZackDialogue.json",
+
+    },
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueZack",
+      "FromFile": "assets/Dialogue/ZackMarriageDialogue.json",
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Zack",
+      "FromFile": "assets/Schedule/Schedule.json",
+
+    },
+
+    { //festivals
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Zack": "Having fun?",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Zack": "Aye Pam is a sneaky one isn't she.",
+      },
+      "When": {
+        "Spouse:Zack": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring33",
+      "Entries": {
+        "Zack": "I refuse to dance.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring33",
+      "Entries": {
+        "Zack": "I wish the world would pick a season, spring is gone already.",
+      },
+      "When": {
+        "Spouse:Zack": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Zack": "Soup huh?",
+        "Zack_spouse": "It better taste good.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Zack": "Should ask SpongeBob for his net,I'm only joking.",
+        "Zack_spouse": "Jellyfish huh? Very iteresting.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Zack": "I want to poke one.",
+      },
+      "When": {
+        "Spouse:Zack": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Zack": "Do you know where I come from? ha ha I know my fate if I go back.",
+        "Zack_spouse": "This reminds me of home.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Zack": "Why are people afraid of the clown? He just ugly.",
+      },
+      "When": {
+        "Spouse:Zack": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall33",
+      "Entries": {
+        "Zack": "Pft this is scary? They should see Pam's feet.",
+        "Zack_spouse": "Where I'm from, this is like a tutorial level of scary.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Zack": "Wanna get outta here with me? *wink*",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Zack": "Try your best babe.",
+      },
+      "When": {
+        "Spouse:Zack": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter33",
+      "Entries": {
+        "Zack": "Pam got the biggest jug lugs I've seen so far around here,gross.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter33",
+      "Entries": {
+        "Zack": "You will get your gift tonight. *wink*",
+      },
+      "When": {
+        "Spouse:Zack": "True",
+      }
+    },
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+    { //10 heart event, 12:00 pm - 4:00 pm, forest must be sunny
+
+      "LogName": "ZackEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Zack 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Zack 39 11 2/skippable/showFrame Zack 29/move farmer -14 0 3/speak Zack \"Yo!\"/jump farmer/faceDirection farmer 0/speak Zack \"Hey cutie,come here.\"/emote farmer 40/move farmer 0 -2 0/speak Zack \"I have something to say.\"/pause 500/speak Zack \"I uh...\"/emote farmer 8/speak Zack \"If I had my sword with me,I'd let you weld it. I mean if you really wanted to..\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Zack false true 330 30 31 30 31/speak Zack \"What I mean is uh..You could polish my sword anytime,if I had it with me.\"/stopAnimation Zack/showFrame Zack 29/faceDirection farmer 0/pause 500/speak Zack \"I like you, a lot. And I..\"/pause 500/speak Zack \"I'm just..maybe..*sigh*\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Zack \"I just never thought it'd come to this with my feelings about someone.\"/pause 500/speak Zack \"I'll come visit you today at your place..after dark though. I have a surprise for you. *wink*\"/move Zack 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end",
+      }
+    },
+
+
+  ]
+}
+		
+		

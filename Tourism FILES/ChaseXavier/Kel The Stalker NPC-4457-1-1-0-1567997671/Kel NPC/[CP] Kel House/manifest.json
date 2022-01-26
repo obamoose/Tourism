@@ -1,0 +1,16 @@
+{
+   "Name": " CP KelHouse",
+   "Author": "ChaseXavier",
+   "Version": "1.1.0",
+   "Description": "Adds a small town.",
+   "UniqueID": "ChaseXavier.CPKelHouse",
+   "MinimumApiVersion": "1.0",
+   "UpdateKeys":"",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",	
+   },
+   "Dependencies": [ 
+{
+	  "UniqueID": "spacechase0.JsonAssets",
+	}	],
+}

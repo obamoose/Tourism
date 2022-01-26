@@ -1,0 +1,110 @@
+{
+  "Format": "1.9",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Yamani": "adult/neutral/outgoing/neutral/female/not-datable/null/Other/summer 27//DayCareCenter 12 5/Yamani",
+
+
+      }
+    },
+	
+	
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Yamani": "Oh I love this! So neat!/113 305 308 394/oooo I like this drink./167 350 395/..Uh Thanks, ha ha./346 348/Oh uh I-I'm ok on that buddy./18 22 172/ooo This looks yummy!/194 194 198 206  210 211 212 220 221 223 224 233 238 606 636 651/",
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Yamani_kids": "16/16 16 17 17 18 18 18 19/19",
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Yamani",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Yamani Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Yamani",
+      "FromFile": "assets/Image/YamaniPortraits.png"
+
+    },
+
+    {
+
+      "LogName": "Yamani Sprites",
+      "Action": "Load",
+      "Target": "Characters/Yamani",
+      "FromFile": "assets/Image/YamaniSprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Yamani",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Yamani",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+	{
+
+        
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+	    "Entries": {
+		"958568/f Yamani 1500/d Mon Tue Wed Thu Sat Sun/x YamaniMail": "null",
+	    }
+	},
+	{ //Mail Event
+            "Action": "EditData",
+            "Target": "Data/mail",
+	    "Entries": {
+		"YamaniMail": "Hello @! ^Here's your weekly paycheck for visiting the kids,^it puts a smile on their faces. -Yamani %item money 50 50 %%",
+	    },
+	},
+	],
+	
+		"RepeatEvents": [
+		"958568",
+	],
+		"RepeatMail": [
+		"YamaniMail",
+	]
+   
+}

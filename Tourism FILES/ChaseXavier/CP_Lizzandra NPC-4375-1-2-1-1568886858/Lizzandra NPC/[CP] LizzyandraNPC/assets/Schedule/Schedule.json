@@ -1,0 +1,12 @@
+{//spring
+  "Mon": "610 Saloon 5 17 3/650 Town 26 29 0/900 Saloon 2 19 0/1430 Town 31 68 0/1750 Saloon 2 19 0/2100 Saloon 2 19 0 /2350 Town 50 68 3\"",
+  "Tue": "610 Saloon 5 17 3/650 Beach 43 7 2/900 Beach 31 16 2 /1800 Beach 23 20 1/2100 Saloon 2 19 0\"",
+  "Wed": "610 Saloon 5 17 3/650 Town 26 29 0/1030 Beach 28 4 1/1200 Beach 28 4 1/1400 Saloon 2 19 0/2100 Saloon 2 19 0/2350 Town 50 68 3\"",
+  "Thu": "610 Town 5 17 3/900 Town 26 29 0/1400 Beach 40 5 3/1800 Town 27 67/2100 Saloon 2 19 0\"",
+  "Fri": "610 Town 5 17 3/630 Town 27 64/1600 Saloon 2 19 1/2030 Town 50 68 3\"",
+  "Sat": "610 Town 5 17 3/630 Town 27 64/1600 Saloon 2 19 1/2030 Town 50 68 3\"",
+  "Sun": "610 Town 5 17 3/630 Town 27 64/1600 Saloon 2 19 1/2030 Town 50 68 3\"",
+}
+
+// First number is time (610 = 6:10) Name of map (BusStop = Bus Stop) and finally position X Y F where x is the X tile Coordinate, Y is the y coordinate and F is facing (0 = up, 1 = right, 2 = down, 3 = left)
+//after position will be animations covered in AnimationDescriptions. (sunbathe) followed by the schedule Dialogues.  Note it's format.  If you have any questions please talk to me on Discord.

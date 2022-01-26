@@ -1,0 +1,13 @@
+{
+
+  "Name": "Chase's Custom NPC Mod",
+  "Author": "ChaseXavier",
+  "Description": "A mod that adds a NPC to the town.",
+  "Version": "1.2.1",
+  "UniqueID": "ChaseXavier.LizzandraNPC",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "" ], //you get a nexus key when starting to upload
+   
+}

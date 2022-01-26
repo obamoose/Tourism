@@ -1,0 +1,12 @@
+{//spring
+  "Mon": "610 ShoppingPlaza1 5 69 2/700 ShoppingPlaza1 4 63 1/800 ShoppingPlaza1 5 60 3/840 ShoppingPlaza1 8 61 1 Rin_takepics \"/1000 ShoppingPlaza1 5 38 1 Rin_takepics \"/1300 ShoppingPlaza1 18 19 1 Rin_takepics /1500 ShoppingPlaza1 21 23 2\"/2300 ShoppingPlaza1 5 69 2\"",
+  "Tue": "610 ShoppingPlaza1 5 69 2/700 ShoppingPlaza1 4 63 1/800 ShoppingPlaza1 5 60 3/840 ShoppingPlaza1 8 61 1 Rin_takepics \"/1000 ShoppingPlaza1 5 38 1 Rin_takepics \"/1300 ShoppingPlaza1 18 19 1 Rin_takepics /1500 ShoppingPlaza1 21 23 2\"/2300 ShoppingPlaza1 5 69 2\"",
+  "Wed": "610 ShoppingPlaza1 5 69 2/700 MiniTown 92 57 2/800 MiniTown 88 64 0/840 MiniTown 104 57 1 Rin_takepics \"/1000 MiniTown 109 67 2\"/1300 MiniTown 61 77 1 Rin_takepics /1500 ShoppingPlaza1 21 23 2\"/2300 ShoppingPlaza1 5 69 2\"",
+  "Thu": "610 ShoppingPlaza1 5 69 2/700 ShoppingPlaza1 4 63 1/800 ShoppingPlaza1 5 60 3/840 ShoppingPlaza1 8 61 1 Rin_takepics \"/1000 ShoppingPlaza1 5 38 1 Rin_takepics \"/1300 ShoppingPlaza1 18 19 1 Rin_takepics /1500 ShoppingPlaza1 21 23 2\"/2300 ShoppingPlaza1 5 69 2\"",
+  "Fri": "610 ShoppingPlaza1 5 69 2/700 ShoppingPlaza1 4 63 1/800 ShoppingPlaza1 5 60 3/840 ShoppingPlaza1 8 61 1 Rin_takepics \"/1000 ShoppingPlaza1 5 38 1 Rin_takepics \"/1300 ShoppingPlaza1 18 19 1 Rin_takepics /1500 ShoppingPlaza1 21 23 2\"/2300 ShoppingPlaza1 5 69 2\"",
+  "Sat": "610 ShoppingPlaza1 5 69 2/700 MiniTown 92 57 2/800 MiniTown 88 64 0/840 MiniTown 104 57 1 Rin_takepics\"/1000 MiniTown 109 67 2\"/1300 MiniTown 61 77 1 Rin_takepics /1500 ShoppingPlaza1 21 23 2\"/2300 ShoppingPlaza1 5 69 2\"",
+  "Sun": "610 ShoppingPlaza1 5 69 2/700 ShoppingPlaza1 4 63 1/800 ShoppingPlaza1 5 60 3/840 ShoppingPlaza1 8 61 1 Rin_takepics \"/1000 ShoppingPlaza1 5 38 1 Rin_takepics \"/1300 ShoppingPlaza1 18 19 1 Rin_takepics /1500 ShoppingPlaza1 21 23 2\"/2300 ShoppingPlaza1 5 69 2\"",
+}
+
+// First number is time (610 = 6:10) Name of map (BusStop = Bus Stop) and finally pohangingion X Y F where x is the X tile Coordinate, Y is the y coordinate and F is facing (0 = up, 1 = right, 2 = down, 3 = left)
+//after pohangingion will be animations covered in AnimationDescriptions. (sunbathe) followed by the schedule Dialogues.  Note it's format.  If you have any questions please talk to me on Discord.

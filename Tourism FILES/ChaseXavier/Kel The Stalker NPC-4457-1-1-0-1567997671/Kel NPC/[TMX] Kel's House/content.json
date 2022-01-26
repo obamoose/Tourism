@@ -1,0 +1,9 @@
+{
+  //Custom Locations here
+  "addMaps": [
+	{
+      "name": "KelHouse",
+      "file": "assets/KelHouse.tbin"
+    },
+  ]
+}

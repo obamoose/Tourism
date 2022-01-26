@@ -1,0 +1,12 @@
+{//spring
+  "Mon": "610 Town 22 25 1/650 Town 59 27 2 Rudy_readbook/900 Town 91 55 1 /1430 Seedshop 13 26 1\"/1750 Town 96 81 2\"/2100 Town 85 82 2 /2350 Town 85 82 2\"",
+  "Tue": "610 Town 22 25 1/650 Town 37 75 2 Rudy_readbook \"/900 Town 37 75 2 Rudy_readbook \"/1800 Town 37 75 2 Rudy_readbook \"/2100 Town 37 75 2 Rudy_readbook\"",
+  "Wed": "610 Town 22 25 1/650 Town 59 27 2 Rudy_readbook/900 Town 91 55 1 /1430 Seedshop 13 26 1\"/1750 Town 96 81 2\"/2100 Town 85 82 2 /2350 Town 85 82 2\"",
+  "Thu": "610 Town 22 25 1/650 Town 37 75 2 Rudy_readbook \"/900 Town 37 75 2 Rudy_readbook \"/1800 Town 37 75 2 Rudy_readbook \"/2100 Town 37 75 2 Rudy_readbook\"",
+  "Fri": "610 Town 22 25 1/650 Town 59 27 2 Rudy_readbook/900 Town 91 55 1 /1430 Seedshop 13 26 1\"/1750 Town 96 81 2\"/2100 Town 85 82 2 /2350 Town 85 82 2\"",
+  "Sat": "610 Town 22 25 1/650 Town 37 75 2 Rudy_readbook \"/900 Town 37 75 2 Rudy_readbook \"/1800 Town 37 75 2 Rudy_readbook \"/2100 Town 37 75 2 Rudy_readbook\"",
+  "Sun": "610 Town 22 25 1/650 Town 59 27 2 Rudy_readbook/900 Town 91 55 1 /1430 Seedshop 13 26 1\"/1750 Town 96 81 2\"/2100 Town 85 82 2 /2350 Town 85 82 2\"",
+}
+
+// First number is time (610 = 6:10) Name of map (BusStop = Bus Stop) and finally position X Y F where x is the X tile Coordinate, Y is the y coordinate and F is facing (0 = up, 1 = right, 2 = down, 3 = left)
+//after position will be animations covered in AnimationDescriptions. (sunbathe) followed by the schedule Dialogues.  Note it's format.  If you have any questions please talk to me on Discord.

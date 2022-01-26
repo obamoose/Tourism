@@ -1,0 +1,13 @@
+{
+  "Name": "Refugee NPCs",
+  "Author": "Acidia",
+  "Version": "0.0.4",
+  "Description": "Assist refugees and newcomers to the Valley.",
+  "UniqueID": "Acidia.RefugeeNPCs",
+  "MinimumApiVersion": "2.9",
+  "UpdateKeys": ["Nexus:3204"],
+  "ContentPackFor": {
+  	"UniqueID": "Pathoschild.ContentPatcher",
+     "MinimumVersion": "1.6.1"
+  }
+}

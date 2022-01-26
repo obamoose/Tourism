@@ -1,0 +1,119 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Lizzandra": "adult/neutral/outgoing/neutral/female/datable/null/Other/summer 27//Saloon 5 17/Lizzandra"
+
+
+      }
+    },
+	
+	
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Lizzandra": "Oh I love this! So neat!/113 394/I like it, thanks./167 395/..Uh Thanks, ha ha./346 348/Oh uh I-I'm ok on that buddy./18 22 172/ooo thanks!/194 194 198 206  210 211 212 220 221 223 224 233 238 606 636 651/",
+
+      }
+    },
+	
+
+    {
+
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Lizzandra0": "I'm so excited!",
+        "Lizzandra1": "This is fantastic honey!",
+      }
+    },
+	
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueLizzandra",
+      "FromFile": "assets/Dialogue/MarriageDialogueLizzandra.json",
+    },
+	
+
+    { //wedding vows fix
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Lizzandra... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Lizzandra... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Lizzandra in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Lizzandra in the bonds of marriage.",
+      },
+      "When": {
+        "Relationship:Lizzandra": "Engaged, Married"
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Lizzandra",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Lizzandra Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Lizzandra",
+      "FromFile": "assets/Image/LizzandraPortraits.png"
+
+    },
+
+    {
+
+      "LogName": "Lizzandra Sprites",
+      "Action": "Load",
+      "Target": "Characters/Lizzandra",
+      "FromFile": "assets/Image/LizzandraSprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lizzandra",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Lizzandra",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    {
+      "LogName": "LizzandraEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958800/f Lizzandra 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Lizzandra 39 11 2/skippable/showFrame Lizzandra 29/move farmer -14 0 3/speak Lizzandra \"OH!\"/jump farmer/faceDirection farmer 0/speak Lizzandra \"Hey @..\"/emote farmer 40/move farmer 0 -2 0/speak Lizzandra \"I have something to say.\"/pause 500/speak Lizzandra \"I uh...\"/emote farmer 8/speak Lizzandra \"If I had a deep secret, you'd be the first I'd tell.\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Lizzandra false true 330 30 31 30 31/speak Lizzandra \"What I mean is uh..I sharing secrets to someone who is special to me.\"/stopAnimation Lizzandra/showFrame Lizzandra 29/faceDirection farmer 0/pause 500/speak Lizzandra \"I like you, a lot. And I..\"/pause 500/speak Lizzandra \"I'm just..maybe..*sigh*\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Lizzandra \"I just never thought it'd come to this with my feelings about someone.\"/pause 500/speak Lizzandra \"I'll come visit you today at your place..after dark,I want to tell you many things.\"/move Lizzandra 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end",
+      }
+    },
+    ],}

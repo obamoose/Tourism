@@ -1,0 +1,107 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Pilla": "adult/neutral/outgoing/neutral/female/datable/null/Other/summer 27//DayCareCenter 13 5/Pilla",
+
+
+      }
+    },
+	
+	
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Pilla": "Oh I love this! So neat!/113 394/I like it, thanks./167 395/..Uh Thanks, ha ha./346 348/Oh uh I-I'm ok on that buddy./18 22 172/ooo thanks!/194 194 198 206  210 211 212 220 221 223 224 233 238 606 636 651/",
+
+      }
+    },
+	
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialoguePilla",
+      "FromFile": "assets/Dialogue/MarriageDialoguePilla.json",
+    },
+	
+
+    { //wedding vows fix
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Pilla... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Pilla... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Pilla in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Pilla in the bonds of marriage.",
+      },
+      "When": {
+        "Relationship:Pilla": "Engaged, Married"
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Pilla",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Pilla Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Pilla",
+      "FromFile": "assets/Image/PillaPortraits.png"
+
+    },
+
+    {
+
+      "LogName": "Pilla Sprites",
+      "Action": "Load",
+      "Target": "Characters/Pilla",
+      "FromFile": "assets/Image/PillaSprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Pilla",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Pilla",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    {
+      "LogName": "PillaEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Pilla 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Pilla 39 11 2/skippable/showFrame Pilla 29/move farmer -14 0 3/speak Pilla \"OH!\"/jump farmer/faceDirection farmer 0/speak Pilla \"Hey @..\"/emote farmer 40/move farmer 0 -2 0/speak Pilla \"I have something to say.\"/pause 500/speak Pilla \"I uh...\"/emote farmer 8/speak Pilla \"If I had the last pizza, I'd give it to you.\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Pilla false true 330 30 31 30 31/speak Pilla \"What I mean is uh..I like sharing food with someone who is special to me.\"/stopAnimation Pilla/showFrame Pilla 29/faceDirection farmer 0/pause 500/speak Pilla \"I like you, a lot. And I..\"/pause 500/speak Pilla \"I'm just..maybe..*sigh*\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Pilla \"I just never thought it'd come to this with my feelings about someone.\"/pause 500/speak Pilla \"I'll come visit you today at your place..after dark,I want to cook for you.\"/move Pilla 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end",
+      }
+    },
+    ],}

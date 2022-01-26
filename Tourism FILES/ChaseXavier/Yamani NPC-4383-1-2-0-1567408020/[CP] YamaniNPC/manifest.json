@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Chase's Custom NPC Mod",
+  "Author": "ChaseXavier",
+  "Description": "A mod that adds a NPC for the DayCareCenter.",
+  "Version": "1.2.0",
+  "UniqueID": "ChaseXavier.YamaniNPC",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+  {
+  "UniqueID": "misscoriel.eventrepeater",
+  "IsRequired": true,
+  },
+  ],
+  }

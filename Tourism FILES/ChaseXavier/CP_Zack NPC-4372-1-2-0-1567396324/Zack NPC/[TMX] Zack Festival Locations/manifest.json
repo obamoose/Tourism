@@ -1,0 +1,11 @@
+{
+  "Name": "Zack Festival Locations",
+  "Author": "ChaseXavier",
+  "Version": "1.1.0",
+  "Description": "Chase's Festival Locations",
+  "UniqueID": "ChaseXavier.ZackFestival",
+  "UpdateKeys":,
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

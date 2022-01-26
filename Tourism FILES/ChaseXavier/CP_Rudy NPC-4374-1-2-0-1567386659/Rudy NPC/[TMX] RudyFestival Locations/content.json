@@ -1,0 +1,57 @@
+{
+
+  "name": "Rudy Festival Locations",
+  "version": "1.1.0", 
+  "author": "ChaseXavier",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Rudy",
+	    "map": "Town-EggFestival", 
+		"position": [44, 60],
+		"direction": 3
+		},
+		{
+		"name": "Rudy",
+	    "map": "Forest-FlowerFestival", 
+		"position": [4, 30],
+		"direction": 1
+		},
+		{
+		"name": "Rudy",
+	    "map": "Beach-Luau", 
+		"position": [27, 14],
+		"direction": 2
+		},
+		{
+		"name": "Rudy",
+	    "map": "Beach-Jellies", 
+		"position": [40, 36],
+		"direction": 2
+		},
+		{
+		"name": "Rudy",
+	    "map": "Town-Fair", 
+		"position": [42, 78],
+		"direction": 2
+		},
+		{
+		"name": "Rudy",
+	    "map": "Town-Halloween", 
+		"position": [37, 36],
+		"direction": 3
+		},
+		{
+		"name": "Rudy",
+	    "map": "Forest-IceFestival", 
+		"position": [69, 27],
+		"direction": 2
+		},
+		{
+		"name": "Rudy",
+	    "map": "Town-Christmas", 
+		"position": [32, 65],
+		"direction": 2 
+		},
+	]
+}

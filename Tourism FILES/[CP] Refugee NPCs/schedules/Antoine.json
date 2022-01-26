@@ -1,0 +1,4 @@
+{
+        "rain": "GOTO spring",
+        "spring": "610 RefugeeCenter_Entry 30 45 2/800 RefugeeCenter_Entry 13 45 0/900 RefugeeCenter_Entry 12 8 2/1200 RefugeeCenter_Entry 30 45 2/1600 TownEast 9 12 2/2000 SmokeyFallsJunction 16 31 2/2100 TownEast 9 12 2/2200 RefugeeCenter_Entry 30 45 2",
+    }

@@ -1,0 +1,6 @@
+{
+        "rain": "GOTO spring",
+        "spring": "610 Town 25 68 0/900 ArchaeologyHouse 4 10 0/1100 Hospital 7 17 0/1300 Blacksmith 4 15 0/1500 SeedShop 38 18 0/1800 Town 40 57 2/1900 Beach 13 39 2/2130 BusStop 29 9 2",
+        "default": "610 Town 25 68 0/900 ArchaeologyHouse 4 10 0/1100 Hospital 7 17 0/1300 Blacksmith 4 15 0/1500 SeedShop 38 18 0/1800 Town 40 57 2/1900 Beach 13 39 2/2130 BusStop 29 9 2"
+
+    }

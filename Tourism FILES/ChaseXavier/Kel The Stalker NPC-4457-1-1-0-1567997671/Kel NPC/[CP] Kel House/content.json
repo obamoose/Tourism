@@ -1,0 +1,18 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    		{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+	  "NotesKel": "There's loads of hate notes here",
+	  "BoxersKel": "They look like your shorts",
+	  "JarKel": "It's a jar of hair and skin collections?",
+	  "StatueKel": "It's a statue of a squirrel. ^the reading on the tile says ^*I worship to have my revenge*",
+	  "PicturesKel": "There's many pictures of Leah and...you??",
+	  "PillsKel": "There some type of pills,better leave them alone.",
+	  "FridgeKel": "Cabbage,Meat,Mayo etc. Normal fridge food.",
+	  },
+	 },
+  ]
+}

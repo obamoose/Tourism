@@ -1,0 +1,134 @@
+
+{
+  "Format": "1.9",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Kel": "adult/neutral/outgoing/neutral/male/not-datable/null/Other/fall 22//Town 53 76/Kel",
+
+
+      }
+    },
+	
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Kel": "Oh for me? Gee thanks!/195/I like this, thanks buddy./167/Um I like it, really I do..heh/242/Oh,you shouldn't have. Uh thanks!/760 789/Oh that's NICE of you./773 223/",
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Kel_foottap": "16/16 17 17 16 16 17/17",
+        "Kel_knife": "18/18 18 18 18/18",
+		"Kel_Snapped": "20/20 21 21 22 22 23 23 20/20",
+		"Kel_SniffMail": "29/29 30 31 30 31 30 31 30/30",
+
+      }
+    },
+
+
+    {
+
+      "LogName": "Kel Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Kel",
+      "FromFile": "assets/Image/KelPortraits.png",
+
+    },
+
+    {
+
+      "LogName": "Kel Sprites",
+      "Action": "Load",
+      "Target": "Characters/Kel",
+      "FromFile": "assets/Image/KelSprite.png",
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kel",
+      "FromFile": "assets/Dialogue/KelDialogue.json",
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Kel",
+      "FromFile": "assets/Schedule/Schedule.json",
+
+    },
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+    { //2 heart event,sunny 6am-7am
+
+      "LogName": "KelEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        "958277/f Kel 500/t 600 800/w sunny/d Mon Tue Wed Thu Fri Sun": "Of Dwarves/8 22/farmer 8 22 1 Kel 19 22 2/showFrame Kel 29/pause 2000/speak Kel \"%He's sniffing mail?..\"/jump farmer/emote farmer 40/pause 2000/speak Kel \"%He doesn't notice you're watching\"/emote farmer 28/pause 2000/showFrame Kel 29/globalFade/viewport -1000 -1000/end warpOut"
+      }
+    },
+	{ //4 heart event,sunny 6am-7am
+
+      "LogName": "KelEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        "95278/f Kel 1000/t 600 700/w sunny/d Mon Tue Wed Fri Sat Sun": "Of Dwarves/9 22/farmer 9 22 1 Kel 19 22 2/showFrame Kel 29/pause 2000/speak Kel \"%He's sniffing mail again...\"/jump farmer/emote farmer 28/pause 2000/speak Kel \"%It might me a love letter?\"/emote farmer 8/pause 2000/showFrame Kel 29/globalFade/viewport -1000 -1000/end warpOut"
+      }
+    },
+	
+	{ //6 heart event,rainy 6am-7am
+
+      "LogName": "KelEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        "958279/f Kel 1500/t 600 700/w rainy/d Mon Wed Thu Fri Sat Sun": "Of Dwarves/8 22/farmer 8 22 1 Kel 19 22 2/showFrame Kel 29/pause 2000/speak Kel \"%This guy is weird...\"/jump farmer/emote farmer 36/pause 2000/speak Kel \"%You just remembered some of your mail is missing...\"/emote farmer 12/pause 2000/showFrame Kel 29/globalFade/viewport -1000 -1000/end warpOut"
+      }
+    },
+	
+	{ //8 heart event,sunny 6am-7am
+
+      "LogName": "KelEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        "958280/f Kel 2000/t 600 700/w sunny/d Mon Wed Thu Sat Sun": "Of Dwarves/8 12/farmer 9 13 0 Kel 7 8 2/showFrame Kel 18/pause 2000/speak Kel \"%He's holding a knife!\"/jump farmer/emote farmer 16/pause 2000/speak Kel \"%He looks insane!\"/animate Kel false true 1000 20 21 20 21/jump farmer/emote farmer 28/pause 2000/showFrame Kel 20/globalFade/viewport -1000 -1000/end warpOut"
+      }
+    },
+	
+	{ //10 heart event,sunny 6am-10am
+
+      "LogName": "KelEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "958281/f Kel 2500/t 600 1000/w sunny/d Mon Tue Wed Fri Thu Sat": "Of Dwarves/29 17/farmer 31 18 0 Kel 31 13 2/showFrame Kel 20/pause 2000/animate Kel false true 1000 20 21 20 21/speak Kel \"%He's lost his mind...\"/jump farmer/emote farmer 16/pause 2000/speak Kel \"%Maybe you should think again about being his friend.\"/emote farmer 40/pause 2000/showFrame Kel 20/globalFade/viewport -1000 -1000/end warpOut"
+      }
+    },
+
+
+  ]
+}
+		
+		

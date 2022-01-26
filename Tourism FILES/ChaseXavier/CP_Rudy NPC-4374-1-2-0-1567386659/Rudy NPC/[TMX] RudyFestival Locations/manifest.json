@@ -1,0 +1,11 @@
+{
+  "Name": "Rudy Festival Locations",
+  "Author": "ChaseXavier",
+  "Version": "1.1.0",
+  "Description": "Chase's Festival Locations",
+  "UniqueID": "ChaseXavier.RudyFestival",
+  "UpdateKeys":,
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

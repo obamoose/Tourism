@@ -1,0 +1,57 @@
+{
+
+  "name": "Zack Festival Locations",
+  "version": "1.1.0", 
+  "author": "ChaseXavier",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Zack",
+	    "map": "Town-EggFestival", 
+		"position": [37, 73],
+		"direction": 3
+		},
+		{
+		"name": "Zack",
+	    "map": "Forest-FlowerFestival", 
+		"position": [3, 34],
+		"direction": 1
+		},
+		{
+		"name": "Zack",
+	    "map": "Beach-Luau", 
+		"position": [28, 8],
+		"direction": 2
+		},
+		{
+		"name": "Zack",
+	    "map": "Beach-Jellies", 
+		"position": [25, 36],
+		"direction": 2
+		},
+		{
+		"name": "Zack",
+	    "map": "Town-Fair", 
+		"position": [37, 68],
+		"direction": 3
+		},
+		{
+		"name": "Zack",
+	    "map": "Town-Halloween", 
+		"position": [22, 68],
+		"direction": 1
+		},
+		{
+		"name": "Zack",
+	    "map": "Forest-IceFestival", 
+		"position": [64, 40],
+		"direction": 1
+		},
+		{
+		"name": "Zack",
+	    "map": "Town-Christmas", 
+		"position": [2, 61],
+		"direction": 1 
+		},
+	]
+}

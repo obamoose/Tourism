@@ -1,0 +1,222 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Rudy": "adult/neutral/outgoing/neutral/female/not-datable/null/Other/fall 20//Town 22 25/Rudy",
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Rudy": "Thanks,I like it expensive./72 167 308 350/*She snatches it from you*/394 414 746/..@...what the hell is this?/16 18 197 236/...I should slap you./760 789/Get out my face and let me enjoy it!/773 223/",
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Rudy_readbook": "17/17 18 18 19 19/19",
+		"Rudy_sitread": "16/16/16",
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Rudy",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json",
+
+    },
+
+
+    {
+
+      "LogName": "Rudy Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Rudy",
+      "FromFile": "assets/Image/RudyPortraits.png",
+
+    },
+
+    {
+
+      "LogName": "Rudy Sprites",
+      "Action": "Load",
+      "Target": "Characters/Rudy",
+      "FromFile": "assets/Image/RudySprite.png",
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Rudy",
+      "FromFile": "assets/Dialogue/RudyDialogue.json",
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Rudy",
+      "FromFile": "assets/Schedule/Schedule.json",
+
+    },
+
+    { //festivals
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Rudy": "Oh boy...fun.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Rudy": "Pam's chest bigger than mine.",
+      },
+      "When": {
+        "Spouse:Rudy": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring33",
+      "Entries": {
+        "Rudy": "Only kids dance.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring33",
+      "Entries": {
+        "Rudy": "Why do I come to these things.",
+      },
+      "When": {
+        "Spouse:Rudy": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Rudy": "Soup huh?",
+        "Rudy_spouse": "I hope you town folk can cook.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Rudy": "Well they are some pretty dangerous creatures.",
+        "Rudy_spouse": "Jellyfish huh? Very iteresting.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Rudy": "And some people eat them,what a shame.",
+      },
+      "When": {
+        "Spouse:Rudy": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Rudy": "This is something.",
+        "Rudy_spouse": "This reminds me of home.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Rudy": "That clown is a hottie pottatie.",
+      },
+      "When": {
+        "Spouse:Rudy": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall33",
+      "Entries": {
+        "Rudy": "Ehh! I could tell a story way more scarier than this!",
+        "Rudy_spouse": "Where I'm from, this is like a tutorial level of scary.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Rudy": "I like the cold, but you can give me your jacket if you want.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Rudy": "If you get 2nd place,at least you tried kid.",
+      },
+      "When": {
+        "Spouse:Rudy": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter33",
+      "Entries": {
+        "Rudy": "What a nice day...I'm joking.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter33",
+      "Entries": {
+        "Rudy": "I want a very expensive gift.",
+      },
+      "When": {
+        "Spouse:Rudy": "True",
+      }
+    },
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+    { //10 heart event, 12:00 pm - 4:00 pm, forest must be sunny
+
+      "LogName": "RudyEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Rudy 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Rudy 39 11 2/skippable/showFrame Rudy 29/move farmer -14 0 3/speak Rudy \"Yo!\"/jump farmer/faceDirection farmer 0/speak Rudy \"Hey cutie,come here.\"/emote farmer 40/move farmer 0 -2 0/speak Rudy \"I have something to say.\"/pause 500/speak Rudy \"I uh...\"/emote farmer 8/speak Rudy \"If I had my sword with me,I'd let you weld it. I mean if you really wanted to..\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Rudy false true 330 30 31 30 31/speak Rudy \"What I mean is uh..You could polish my sword anytime,if I had it with me.\"/stopAnimation Rudy/showFrame Rudy 29/faceDirection farmer 0/pause 500/speak Rudy \"I like you, a lot. And I..\"/pause 500/speak Rudy \"I'm just..maybe..*sigh*\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Rudy \"I just never thought it'd come to this with my feelings about someone.\"/pause 500/speak Rudy \"I'll come visit you today at your place..after dark though. I have a surprise for you. *wink*\"/move Rudy 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end",
+      }
+    },
+
+
+  ]
+}
+		
+		

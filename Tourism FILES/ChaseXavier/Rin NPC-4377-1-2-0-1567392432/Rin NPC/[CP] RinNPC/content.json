@@ -1,0 +1,123 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Rin": "adult/neutral/outgoing/neutral/male/datable/null/Other/summer 27//ShoppingPlaza1 5 69/Rin"
+
+
+      }
+    },
+	
+	
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Rin": "Oh thanks./113 394/I like this drink./167 395/..Uh Thanks, ha ha./346 348/...../18 22 172/Looks fantastic,did you cook it?/194 194 198 206  210 211 212 220 221 223 224 233 238 606 636 651/",
+
+      }
+    },
+	
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Rin_takepics": "16/16 17 17 18 18 19 19/19",
+
+      }
+    },
+	{
+
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Rin0": "You look lovely today.#$b# Can't believe we're going to start a live together.",
+        "Rin1": "Counting the days till the big day.",
+      }
+    },
+    {
+
+     //wedding vows fix
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Rin... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Rin... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Rin in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Rin in the bonds of marriage.",
+      },
+      "When": {
+        "Relationship:Rin": "Engaged, Married"
+      }
+    },
+	
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueRin",
+      "FromFile": "assets/Dialogue/RinMarriageDialogue.json"
+    },
+
+    {
+
+      "LogName": "Rin Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Rin",
+      "FromFile": "assets/Image/RinPortraits.png"
+
+    },
+
+    {
+
+      "LogName": "Rin Sprites",
+      "Action": "Load",
+      "Target": "Characters/Rin",
+      "FromFile": "assets/Image/RinSprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Rin",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Rin",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+	
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+    { //10 heart event, 12:00 pm - 4:00 pm, forest must be sunny
+
+      "LogName": "RinEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Rin 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Rin 39 11 2/skippable/showFrame Rin 29/move farmer -14 0 3/speak Rin \"Yo!\"/jump farmer/faceDirection farmer 0/speak Rin \"Hey one-cheek-wonder,come here.\"/emote farmer 40/move farmer 0 -2 0/speak Rin \"I have something to say.\"/pause 500/speak Rin \"I uh...\"/emote farmer 8/speak Rin \"Your face is that of the blue sun...\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Rin false true 330 30 31 30 31/speak Rin \"I like..no I love talking to you everyday.\"/stopAnimation Rin/showFrame Rin 29/faceDirection farmer 0/pause 500/speak Rin \"I-I mean ...I like you, a lot. And I..\"/pause 500/speak Rin \"I'm just..maybe..*sigh*\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Rin \"I just never thought it'd come to this with my feelings about someone.\"/pause 500/speak Rin \"I'll come visit you today at your place..after dark though. I have a surprise for you. *wink*\"/move Rin 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end",
+      }
+    },
+    ],}
